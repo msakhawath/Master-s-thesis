@@ -1,0 +1,81 @@
+# ---------------------------------------------------------------
+# Credentials — never commit
+# ---------------------------------------------------------------
+.env
+*.key
+*_with_keys*
+config.local.py
+
+# ---------------------------------------------------------------
+# Participant data — never commit (data protection)
+# ---------------------------------------------------------------
+user_study/data/
+user_study/allocation*.csv
+logs/
+*_P[0-9][0-9]_*.csv
+*_p[0-9][0-9]_*.csv
+*PILOT*
+analysis/results/
+free_text*.csv
+study_master*.csv
+session_notes*.csv
+safety_log_*.csv
+
+# ---------------------------------------------------------------
+# Model weights and large binaries — exceed GitHub limits
+# ---------------------------------------------------------------
+Trained_TurnGPT/
+Trained_TurnGPT.zip
+VoiceActivityProjection/
+TurnGPT/
+onnx/
+Voices/
+*.onnx
+*.safetensors
+*.pt
+*.bin
+
+# ---------------------------------------------------------------
+# Private working notes and review material
+# ---------------------------------------------------------------
+THESIS_MASTER_STATUS.md
+graphify-out/
+archive_old/
+*_audit.txt
+
+# ---------------------------------------------------------------
+# Backups and superseded copies
+# ---------------------------------------------------------------
+*_old.py
+*.encoding_backup
+*.rq2_backup
+*.before_*
+*.persistent_client_backup
+*.rq2_prompt_backup
+*_diag.py
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---------------------------------------------------------------
+# Runtime scratch
+# ---------------------------------------------------------------
+temp_audio/
+*.wav
+*.log
+*.jsonl
+
+# ---------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini

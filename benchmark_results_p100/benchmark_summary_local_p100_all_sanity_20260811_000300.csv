@@ -1,0 +1,9 @@
+model,parameter_size,quantization_level,warm_n,failed_n,failure_rate_pct,timeout_n,timeout_rate_pct,warm_first_token_mean_ms,warm_first_token_sd_ms,warm_first_token_median_ms,warm_first_token_p95_ms,warm_total_mean_ms,warm_total_sd_ms,warm_total_median_ms,warm_total_p95_ms,strict_separator_pass_pct,question_count_pass_pct,auto_instruction_pass_pct,mean_words,cold_n,cold_load_mean_ms,cold_load_sd_ms,cold_total_mean_ms,cold_total_sd_ms,resource_n,prompt_tokens_per_s_mean,generation_tokens_per_s_mean,gpu_ollama_memory_mb_snapshot
+gemma3:1b,999.89M,Q4_K_M,10,0,0.0,0,0.0,444.4,21.0,443.1,480.5,772.9,115.6,812.0,911.7,0.0,70.0,0.0,23.7,1,2667.7,,2782.9,,1,551.2,134.4,
+phi4-mini:3.8b,3.8B,Q4_K_M,10,0,0.0,0,0.0,333.6,46.6,328.0,444.9,714.8,88.9,725.6,857.5,100.0,40.0,40.0,18.3,1,3077.5,,3148.0,,1,156.9,75.1,
+qwen3:4b,4.0B,Q4_K_M,0,10,100.0,0,0.0,,,,,,,,,,,,,1,2209.0,,2380.3,,1,169.4,62.5,
+gemma3:4b,4.3B,Q4_K_M,10,0,0.0,0,0.0,515.4,50.9,513.8,613.6,872.9,54.6,886.5,925.4,50.0,70.0,30.0,15.8,1,4106.4,,4304.3,,1,172.8,62.3,
+mistral:7b,7.2B,Q4_K_M,10,0,0.0,0,0.0,232.3,76.4,235.9,379.5,860.3,176.6,796.0,1177.1,100.0,60.0,60.0,22.2,1,1928.9,,2167.2,,1,86.5,46.6,
+qwen3:8b,8.2B,Q4_K_M,2,8,80.0,0,0.0,2213.9,138.8,2213.9,2312.1,2707.9,142.8,2707.9,2808.8,100.0,100.0,100.0,15.0,1,2710.3,,2984.6,,1,108.6,40.0,
+llama3.1:8b,8.0B,Q4_K_M,10,0,0.0,0,0.0,401.5,71.5,403.6,527.3,1185.8,285.5,1126.7,1769.1,10.0,50.0,0.0,26.3,1,3064.4,,3315.2,,1,112.8,43.4,
+gemma2:9b,9.2B,Q4_0,10,0,0.0,0,0.0,436.1,95.9,436.1,626.5,1172.6,149.2,1185.5,1456.5,100.0,70.0,70.0,17.9,1,3476.3,,3756.2,,1,89.4,41.4,

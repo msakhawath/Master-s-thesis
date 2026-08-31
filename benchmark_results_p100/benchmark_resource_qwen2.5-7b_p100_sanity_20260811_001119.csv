@@ -1,0 +1,2 @@
+model,resource_repeat,prompt_eval_tokens,generated_tokens,prompt_tokens_per_s,generation_tokens_per_s,load_ms,total_ms,response,error
+qwen2.5:7b,1,42,22,196.395,46.173,179.1,940.2,"Precision measures the accuracy of positive predictions, while recall measures the fraction of actual positives that were correctly identified.",

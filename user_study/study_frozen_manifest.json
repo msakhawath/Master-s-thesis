@@ -1,0 +1,96 @@
+{
+  "status": "USER STUDY CODE FROZEN FOR PARTICIPANT COLLECTION",
+  "created_at": "2026-08-20T00:57:59.997270+02:00",
+  "python": "3.14.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "design": {
+    "participants": 20,
+    "per_condition": 10,
+    "allocation": "between-subjects, block-randomised (user_study/allocation.csv)",
+    "condition_A": "Qwen2.5:7B multi-agent, self-hosted on BHT Tesla P100",
+    "condition_B": "GPT-4o-mini monolithic (legacy ChatGPT-based system)",
+    "comparison_type": "system-level (arms differ in model, architecture, TTS, robot interface and turn-taking)"
+  },
+  "runtime_settings": {
+    "OPENAI_MODEL": "gpt-4o-mini",
+    "OPENAI_REQUEST_TIMEOUT": 12.0,
+    "PREP_STALL_MS": 15000,
+    "ENABLE_EARLY_LLM_PREFETCH": false,
+    "ENABLE_BARGE_IN": false,
+    "RQ3B_USER_EVAL_MIN_GAP_MS": 1000,
+    "SIMPLE_SILENCE_MS": 2500
+  },
+  "files": {
+    "shared": {
+      "config.py": {
+        "sha256": "60a7176a52325dc1af1d774c29e5ee6987647983414ff2762be8313b85073545",
+        "bytes": 13370
+      },
+      "asr_module.py": {
+        "sha256": "f74b1863c475e8e1cfbdb15120a1c734852ad5d59aa1396648515d254dd34561",
+        "bytes": 14279
+      }
+    },
+    "condition_A": {
+      "rq3b_user_eval_main.py": {
+        "sha256": "3a7078d25f0b5a9db19e0056dfb2f8e88448074c5f0ce60c8319d7cdf096c91e",
+        "bytes": 16518
+      },
+      "rq3b_user_eval_policy.py": {
+        "sha256": "6ba0d8ba1c3a6516ba22e5461643b46992e1d5817784e5ab15852626ef1e81fc",
+        "bytes": 6642
+      },
+      "multi_agent/agents.py": {
+        "sha256": "ee6672cba9f38805d76f5549304b18ee451fab239c0eeb87df8b720527046fed",
+        "bytes": 22888
+      },
+      "multi_agent/graph.py": {
+        "sha256": "ac26b04a466c6bdf6bc06ac46c1b3260f3372e995f23342563220043de7a1bbe",
+        "bytes": 2796
+      },
+      "multi_agent/state.py": {
+        "sha256": "41ed657c983a57979e34f8fd415de4f29b7488911802ba78591050f5a05f77db",
+        "bytes": 3529
+      },
+      "vap_module.py": {
+        "sha256": "5933de47a16af5c9ff361035c4fb684453fb945fd161eec775a15587251f6cc6",
+        "bytes": 15616
+      },
+      "turngpt_module.py": {
+        "sha256": "24f37eb2a378ce667fa55522e5bd5fd9f303c8471825400e954fa17d39fe9bfd",
+        "bytes": 12133
+      },
+      "furhat_realtime_module.py": {
+        "sha256": "a440acba317aaf815a99628aee2378ff20449c6de619613862a6754567ee0d05",
+        "bytes": 9696
+      }
+    },
+    "condition_B": {
+      "main.py": {
+        "sha256": "94f370b18e813e7a05410e7a9bb4bc85ef701854e1cec78dd57bed8a69f2f203",
+        "bytes": 55651
+      },
+      "llm_module.py": {
+        "sha256": "724ac436d379f4ed48daac50855d05813b897dfe7982838286e0faeec41a7194",
+        "bytes": 20716
+      },
+      "tts_module.py": {
+        "sha256": "56ef80100437a9faab0a8c3dd61490ed2ab781efddb2f4515dbba6c031660ff3",
+        "bytes": 10361
+      },
+      "furhat_module.py": {
+        "sha256": "53a4cf3ac76e0e329db7c3a2168a63d0d9bfce9024b1b4ba8a8c2030fad9af06",
+        "bytes": 7542
+      },
+      "similarity.py": {
+        "sha256": "2ac344490cb52c38a746064170441382d54fc73a441cdc2c57588ae6b978d328",
+        "bytes": 9950
+      },
+      "logger.py": {
+        "sha256": "65211f70f7dd9811a6d9d26804e91faaf35fd076c3c5eaca2991bea2e8ceaa1a",
+        "bytes": 10456
+      }
+    }
+  },
+  "missing": []
+}

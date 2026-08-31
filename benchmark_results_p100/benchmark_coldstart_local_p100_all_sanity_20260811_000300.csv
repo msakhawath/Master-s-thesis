@@ -1,0 +1,9 @@
+model,cold_repeat,error,wall_total_ms,ollama_total_ms,ollama_load_ms,prompt_eval_ms,generation_ms,prompt_eval_tokens,generated_tokens,response
+gemma3:1b,1,,2785.0,2782.9,2667.7,49.8,9.1,14,2,OK
+phi4-mini:3.8b,1,,3152.5,3148.0,3077.5,39.8,14.7,8,2,OK
+qwen3:4b,1,,2382.0,2380.3,2209.0,129.2,16.1,15,2,
+gemma3:4b,1,,4305.9,4304.3,4106.4,115.2,17.0,14,2,OK
+mistral:7b,1,,2168.7,2167.2,1928.9,210.0,23.5,10,2,OK
+qwen3:8b,1,,2986.1,2984.6,2710.3,221.8,26.0,15,2,
+llama3.1:8b,1,,3316.7,3315.2,3064.4,219.1,24.6,15,2,OK
+gemma2:9b,1,,3757.8,3756.2,3476.3,240.5,26.4,14,2,OK

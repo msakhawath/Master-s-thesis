@@ -1,0 +1,11 @@
+response_id,task_id,task_label,candidate_message,robot_response,coherence_1_5,naturalness_1_5,task_appropriateness_1_5,notes
+225b58a7601d,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you find most effective for communicating insights through data visualizations? |||,,,,
+0cf452083766,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,How do you approach selecting the right type of chart for different datasets in your projects? |||,,,,
+6f7a250daac3,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+5491af4b9144,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about the most challenging aspect of that project? |||,,,,
+764dbd0970fc,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis skills? |||,,,,
+7ee20d8fa3a1,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,,,
+455e21ac4058,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for your time. We appreciate your interest in DataTech Berlin. |||,,,,
+4275fbf180e9,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you share what kind of data and techniques you used in that project? |||,,,,
+7101d94a0429,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a time when you had to learn a new skill quickly in your previous role? |||,,,,
+51d5ef135c01,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about your experience with data cleaning and preprocessing? |||,,,,

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-08-11T13:59:29.867000+02:00",
+  "status": "RQ3-B DEVELOPMENT - NOT YET FROZEN",
+  "conditions": {
+    "simple": {
+      "endpoint_rule": "ASR final + 2500 ms continuous silence",
+      "silence_ms": 2500
+    },
+    "vap_turngpt": {
+      "endpoint_rule": "ASR final + not speaking + (VAP gate OR TurnGPT timeout)",
+      "min_gap_ms": 500,
+      "vap_robot_now_threshold": 0.48,
+      "vap_robot_future_threshold": 0.48,
+      "vap_user_low_now_threshold": 0.47,
+      "vap_user_low_future_threshold": 0.46,
+      "turngpt_yield_timeouts": [
+        [
+          0.5,
+          200
+        ],
+        [
+          0.3,
+          400
+        ],
+        [
+          0.2,
+          800
+        ],
+        [
+          0.1,
+          1600
+        ],
+        [
+          0.0,
+          2500
+        ]
+      ]
+    }
+  },
+  "controls": {
+    "same_model": "qwen2.5:7b",
+    "same_multi_agent_backend": true,
+    "same_safety": true,
+    "same_persona": true,
+    "same_final_transcript": true,
+    "same_llm_start_policy": "LLM begins only after endpoint permission",
+    "partial_asr_llm_prefetch": false,
+    "same_tts_path": true,
+    "same_metric_anchors": true
+  },
+  "primary_metric_definition": {
+    "endpoint_decision_delay_ms": "endpoint_permission_ms - acoustic_user_stop_ms",
+    "fto_ms": "robot_audio_start_ms - acoustic_user_stop_ms"
+  }
+}

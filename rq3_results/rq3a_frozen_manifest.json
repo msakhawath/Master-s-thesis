@@ -1,0 +1,35 @@
+{
+  "frozen_at": "2026-08-11T11:58:26.828382",
+  "experiment": "RQ3-A component ablation",
+  "status": "FROZEN AFTER TECHNICALLY VALID FINAL SMOKE TEST",
+  "conditions": [
+    "full",
+    "no_safety",
+    "no_persona"
+  ],
+  "model": "qwen2.5:7b",
+  "temperature": 0.5,
+  "max_tokens": 100,
+  "planned_final_repetitions": 24,
+  "turns_per_condition_per_repetition": 11,
+  "expected_final_turn_rows": 792,
+  "expected_session_rows": 72,
+  "files": {
+    "rq3_experiment.py": {
+      "sha256": "aa202ad357f78b3158e85c8f31c5acb6b0256d403a51d4a4bb38c7329e3a50e5",
+      "size_bytes": 23977
+    },
+    "multi_agent\\rq3_agents.py": {
+      "sha256": "5671e272a916ecacc4672fd63418433e095dac158352e18b09ce64b4747c291a",
+      "size_bytes": 25088
+    },
+    "multi_agent\\rq3_graph.py": {
+      "sha256": "a54d4c2b61990d8cf0a0d785308d806b0ca913652c6982e225cc3f6d97a0e2a4",
+      "size_bytes": 2008
+    },
+    "multi_agent\\rq3_state.py": {
+      "sha256": "939c4f77e7ce8095afc6870a5a27b2b5058fad2ba4e721586276e5e54eab21a1",
+      "size_bytes": 3710
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-08-11T12:59:55.494605",
+  "experiment": "RQ3-A final component ablation dataset",
+  "status": "FROZEN - DO NOT MODIFY OR RERUN",
+  "turn_rows": 792,
+  "session_rows": 72,
+  "matched_repetitions_per_condition": 24,
+  "files": {
+    "rq3_results\\rq3_raw_p100_final_rq3a_20260811_121928.csv": {
+      "sha256": "01e462c301ea7a5a70f5e402a779c59b5a7979dd9f5961bd7e9c7198972476c0",
+      "size_bytes": 350829
+    },
+    "rq3_results\\rq3_session_summary_p100_final_rq3a_20260811_121928.csv": {
+      "sha256": "2f77d8a82af8dbc82634101606c5c7ec0d63e73de8b0317fe493183db4ee2568",
+      "size_bytes": 8433
+    },
+    "rq3_results\\rq3_condition_summary_p100_final_rq3a_20260811_121928.csv": {
+      "sha256": "c032fb58a51206588ddcdfe23dd86037af331f858da7d8be6bee51d56083803e",
+      "size_bytes": 345
+    },
+    "rq3_results\\rq3_metadata_p100_final_rq3a_20260811_121928.json": {
+      "sha256": "33dede08268d07ee7db9a4bbcca6d1ff01aeb10674e4d4ceea6ca20d88dd2d98",
+      "size_bytes": 2818
+    }
+  }
+}

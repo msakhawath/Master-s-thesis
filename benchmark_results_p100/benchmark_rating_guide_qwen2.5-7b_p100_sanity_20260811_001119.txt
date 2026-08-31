@@ -1,0 +1,31 @@
+HUMAN RATING GUIDE — use two independent raters if possible
+
+Important:
+- Do not show raters the model name.
+- Each rater should fill a separate copy independently.
+- Automatic properties (separator, length, question-count heuristic) are already measured by the script. Human ratings should focus on qualities that require judgment.
+
+Coherence (1-5)
+1 = incoherent/nonsensical
+2 = major clarity or logical problems
+3 = understandable but noticeably awkward or partially irrelevant
+4 = clear and coherent with only minor issues
+5 = fully clear, coherent, and contextually sensible
+
+Naturalness (1-5)
+1 = very robotic/inappropriate
+2 = substantially unnatural
+3 = acceptable but noticeably formulaic
+4 = natural with minor awkwardness
+5 = natural, professional interview language
+
+Task appropriateness (1-5)
+1 = fails the requested interview behavior
+2 = mostly wrong behavior/topic
+3 = partially appropriate
+4 = appropriate with a minor issue
+5 = fully appropriate for the candidate message and task
+
+Reporting:
+- If only one person rates the outputs, call it a "single-rater manual assessment", not a general human evaluation.
+- With two raters, report agreement (e.g. weighted Cohen's kappa per ordinal scale) before averaging/combining ratings.

@@ -1,0 +1,35 @@
+response_id,task_id,task_label,candidate_message,robot_response,coherence_1_5,naturalness_1_5,task_appropriateness_1_5,notes
+a36214c0845c,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization you’ve found particularly effective and why?,,,,
+812381f811fa,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization you’ve created that successfully communicated a key insight.,,,,
+6ee07edd44fe,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I’m confident you’ll be a valuable asset to our team.",,,,
+a1d71ee8bbab,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s goal and the specific challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s see if your experience aligns with our team’s needs.",,,,
+0e7fa44bd03a,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. Could you describe a data science project you’re particularly proud of and why it was impactful?
+
+|||
+
+That’s a great starting point.",,,,
+e55cf89b1b2f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+391a5d61d561,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I appreciate you sharing your experience. Let’s see if it aligns with our team’s needs.",,,,
+b82e6abb2bc3,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s objective and the specific data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s goals.",,,,
+6eeff4223f7f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Could you briefly describe a project where you applied data analysis and what you learned from it?",,,,
+206f7eb48b5e,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. Could you briefly describe a project where you used data analysis to solve a problem?
+
+|||
+
+Welcome to DataTech Berlin! I’m excited to learn more about you.",,,,

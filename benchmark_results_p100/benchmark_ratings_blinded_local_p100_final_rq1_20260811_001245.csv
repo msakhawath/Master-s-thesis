@@ -1,0 +1,456 @@
+response_id,task_id,task_label,candidate_message,robot_response,coherence_1_5,naturalness_1_5,task_appropriateness_1_5,notes
+8b69ab45f6fc,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! How familiar are you with creating interactive dashboards using tools like Tableau and Power BI?
+
+|||",,,,
+74f8dd4baf9d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity. Let’s see if you’re a good fit for our team.
+
+|||
+
+I’m confident you’ll be a valuable asset to DataTech Berlin.",,,,
+0198d0993530,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you briefly describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+c6da1ac80ba8,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,It's great to hear about your data science background. Could you please share an example of a project where you applied machine learning techniques and discuss the results? |||,,,,
+f069226a32b7,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great to hear! Can you tell me about a time you had to clean and prepare a messy dataset for analysis?  |||,,,,
+d125a20e06e3,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's helpful context. Can you tell me about a time you had to explain a complex technical concept to someone with limited technical knowledge? |||,,,,
+9b05bef77cb8,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you describe a project where you utilized data visualization to enhance decision-making and provide valuable insights?|||",,,,
+a764ab919c7a,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Can you describe a project where you applied one and discuss its outcomes? |||,,,,
+06bebfec8a26,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"It was great discussing your background with us! Could we delve into a specific project or challenge you've faced in applying machine learning techniques? 
+
+|||",,,,
+2110d2f6a242,warmup,Warm-up question,"Hi, I am ready for the interview.","Where can you see yourself applying data science techniques in a real-world scenario? 
+
+|||",,,,
+2bfbc6c8b271,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe a project where you learned and applied concepts related to machine learning and model evaluation? |||,,,,
+5386a865796d,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you walk me through a project you've worked on that showcases your data science skills?|||,,,,
+1f5e495ea55b,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? 
+
+|||",,,,
+bc8984c26da0,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+5485ccec871f,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That's great to hear!  Can you tell me about a time you had to explain a complex technical concept to someone without a technical background? 
+
+
+|||",,,,
+a36214c0845c,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization you’ve found particularly effective and why?,,,,
+03de37858f78,warmup,Warm-up question,"Hi, I am ready for the interview.",That's great! Tell me about a project where you had to clean and prepare data for analysis.  |||,,,,
+1cfb327fe966,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you share an example project where you applied data analysis skills and describe how you would evaluate its performance? |||,,,,
+674192450164,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe a situation where you've had to analyze and interpret data without using complex models? |||,,,,
+a14dac762658,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into a question: Can you describe a project where you applied machine learning techniques and explain your role and the outcomes? |||,,,,
+9bf665986e4c,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Great! Can you walk me through the specific role each team member played in the development and implementation of your machine learning model? |||,,,,
+e2935b0de098,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? |||,,,,
+d80eda77ee5c,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you please elaborate on a specific challenge you've faced with your previous dataset and how did you overcome it? I'm interested in understanding more about your problem-solving approach.
+
+|||",,,,
+e6456dc77236,warmup,Warm-up question,"Hi, I am ready for the interview.",Welcome! Tell me about a time you had to clean and prepare data for analysis.  |||,,,,
+206f7eb48b5e,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. Could you briefly describe a project where you used data analysis to solve a problem?
+
+|||
+
+Welcome to DataTech Berlin! I’m excited to learn more about you.",,,,
+3132586ed814,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you walk me through how your team's collaborative efforts influenced different aspects like data collection and feature engineering in developing this ML model? |||,,,,
+31d711213d03,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you describe a challenging dataset you've worked with and how you approached analyzing it?
+
+|||",,,,
+812381f811fa,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization you’ve created that successfully communicated a key insight.,,,,
+277450b1c451,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you describe a challenging problem you've solved with your previous datasets? We value practical examples in our junior roles.
+
+|||",,,,
+387ce18eedca,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Can you tell me about a time you had to present complex data insights in a clear and engaging way? 
+
+
+|||",,,,
+e271a4aab91e,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you describe your experience in selecting features and preparing data sets that significantly impacted this project's outcomes? |||,,,,
+f2eaee016b8f,warmup,Warm-up question,"Hi, I am ready for the interview.","Welcome! Tell me about a project where you applied data science techniques to solve a real-world problem. 
+
+
+|||",,,,
+35344279b689,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you share what kind of data and techniques you used in that project? |||,,,,
+a43f10eb4dad,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Can you tell me about a time you had to present complex data insights to a non-technical audience? 
+
+|||",,,,
+83b02001248c,warmup,Warm-up question,"Hi, I am ready for the interview.","Great! To start, could you please describe a project where you applied data science techniques and explain the impact it had? |||",,,,
+3e219fa6f547,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about your role in that project? |||,,,,
+6f2a1969bea7,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you tell me about a time you had to learn a new technical skill quickly and how you approached it? 
+
+|||",,,,
+87594e9af0ff,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! How comfortable are you with creating interactive dashboards using tools like Tableau or Power BI?
+
+|||",,,,
+042246955857,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Thank you for sharing your background with us! Could we discuss a specific project or challenge you've tackled in detail? This will help me understand how well you'd fit into our team.
+
+|||",,,,
+18df4e1dd841,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,,,
+5f43a3dc46ca,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great to hear! Can you tell me about a project where you had to clean and prepare messy data for analysis?  |||,,,,
+5ce4f54dcbd1,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you please share an example of a project where you applied machine learning techniques and explain your contributions? |||,,,,
+7454baddaf18,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you share an example of a complex data visualization project you've worked on and explain how you approached it to effectively communicate the insights? |||",,,,
+aac21f57c4aa,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great! Can you tell me about a time you had to explain a complex technical concept to someone without a technical background? |||,,,,
+a0b39ef93a72,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,,,
+0f75bd285a51,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s good to know you’re ready for a conversation. Let’s begin.
+
+Okay, tell me, when did you start developing your data science skills and what’s a project you’re particularly proud of?
+
+|||",,,,
+c394962da335,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Can you tell me about your specific role on the team and what challenges you faced during development? |||,,,,
+691470e285fb,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s dive in. Can you describe a time you tackled a challenging data problem and how you approached it?
+
+|||
+
+We’re excited to hear more about your experience.",,,,
+31154bdaf61d,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+1e933d637152,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+We’re excited to hear from you and look forward to moving forward.",,,,
+e765ae7e8273,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,It's great to hear about your data science background. Can you walk me through a specific project where you applied machine learning techniques and faced challenges? How did you overcome them? |||,,,,
+a006b08fa237,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"Can you walk us through your process in selecting and tuning features within this collaborative environment? How did each member contribute to different aspects like data collection, preprocessing or feature engineering?
+
+|||",,,,
+e55cf89b1b2f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+b12c4471bddc,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe a project where you learned and applied machine learning concepts, and how you evaluated the performance of your model? |||",,,,
+8d16b78cc21c,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Could you please elaborate on the specific role each team member played in the development and optimization of the machine learning model? |||,,,,
+82547902339f,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a data analysis project you've worked on and what insights it provided?
+
+|||",,,,
+0671c00ac7c8,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you use for creating effective data visualizations?|||,,,,
+8c8e39dd53a4,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Could you please describe a project where you applied one and share its results? |||,,,,
+c5639c43c450,warmup,Warm-up question,"Hi, I am ready for the interview.",Welcome! Tell me about a project where you had to analyze data and draw meaningful conclusions.  |||,,,,
+b368cef1ad9d,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,,,
+c0137271c209,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Tell me about a time you had to present complex data insights to a non-technical audience. 
+
+|||",,,,
+9cde47e29b67,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you describe a challenging problem you've solved using your data analysis skills? 
+
+|||",,,,
+6eeff4223f7f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Could you briefly describe a project where you applied data analysis and what you learned from it?",,,,
+e2520e33dbaf,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Could you briefly describe a project where you applied data analysis and what you learned from it?",,,,
+d03ec761dad8,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! How comfortable are you with creating interactive dashboards using tools like Tableau and Power BI?
+
+|||",,,,
+abbfc46666bb,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great! Can you tell me about a project where you had to clean and prepare messy data for analysis? |||,,,,
+a3a1cc754eb3,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you analyzed data to solve a specific problem? |||,,,,
+3ca8706c74e2,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Tell me about your experience working in teams on data science projects and how you managed roles within that context? |||,,,,
+e381b96e45e7,warmup,Warm-up question,"Hi, I am ready for the interview.","Great, let's start. Can you tell me about a project where you applied data analysis to solve a real-world problem? |||",,,,
+77a5a10765a2,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's great! Can you tell me about your role in that project and what challenges you faced? |||,,,,
+1145e4d7553d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you describe a challenging problem you've solved with machine learning? 
+
+|||",,,,
+f9770d460e84,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Could you walk me through your specific contributions to the project and the role you played in building the machine learning model? |||,,,,
+c37f6c492057,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for your time. We appreciate your application and look forward to potentially working with you. |||,,,,
+70875f0ecb3d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Great, thank you for sharing your background. Can you please describe a project where you applied machine learning techniques and explain the process and results? |||",,,,
+f9b3c5b3e030,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a challenging data problem you've encountered and how you'd approach solving it?
+
+|||",,,,
+6540b17e6405,warmup,Warm-up question,"Hi, I am ready for the interview.","Great, let's start. Can you tell me about a project where you applied data analysis to solve a problem? |||",,,,
+7e183ff5c2ce,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great to hear! Can you tell me about a project where you had to work with messy or incomplete data? |||,,,,
+e451bcb62fe1,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Okay, let’s start with this: Could you describe a data visualization you found particularly effective and why?",,,,
+440130dbd2b4,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"That's alright, many data scientists start their journey without deep ML experience.  Can you tell me about a project where you analyzed data and drew meaningful conclusions? |||",,,,
+334510500ca0,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Could you share an example of a project where you applied these techniques and discuss the results? |||,,,,
+86c4166696a2,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Could you please describe a project where you learned about machine learning and its evaluation methods, and how you applied that knowledge? |||",,,,
+0e761b9df824,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"What tool do you prefer for creating interactive and dynamic data visualizations, and can you share an example of a project where you utilized it effectively? |||",,,,
+8984682c046c,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about your role in that project? |||,,,,
+d13d47ce5051,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you describe a challenging project where you applied your data science skills and explain how you approached it? |||,,,,
+e23c4bd78b0b,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's alright! Can you tell me about a project where you had to analyze data and draw meaningful insights? |||,,,,
+b6e403aea68b,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What are some tools or techniques you find most effective for communicating complex data insights through visualizations?  |||,,,,
+667257e946b8,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about the most challenging part of that project? |||,,,,
+c00874f4f3c2,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a challenging data analysis project you've worked on and how did it impact your problem-solving skills?
+
+|||",,,,
+e67d87694b80,warmup,Warm-up question,"Hi, I am ready for the interview.",Could you please share your experience with data cleaning and preprocessing? Thank you! |||,,,,
+389fcc9be2b3,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Tell me about one challenge you faced while building this ML model and how your team overcame it? |||,,,,
+c000a17d5e1c,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Can you describe a project where you applied a specific algorithm and discuss its results? |||,,,,
+b1bbb0119939,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That's great! Can you tell me about your specific contributions to that project? 
+
+|||",,,,
+97cb0367cb60,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, can you share an example of a complex dataset you've worked with and how you used data visualization to effectively communicate insights from that data? |||",,,,
+0f103b0ba677,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you describe a recent project where you utilized data visualization and explain how it enhanced your analysis or decision-making process? |||",,,,
+ab4e3aff4a6d,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"How comfortable are you with creating interactive dashboards for visualizing complex datasets?
+
+|||",,,,
+82beb793796a,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Could you please describe a project where you applied these and explain the results? |||,,,,
+f4b8c3c7a9a5,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you describe a time when you used data visualization to effectively communicate insights from your analysis to stakeholders?|||",,,,
+3a719e5fe57d,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a time you had to present complex data insights to a non-technical audience.  |||,,,,
+e1073e6f7b46,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's alright! Can you tell me about a project where you had to analyze data and draw meaningful conclusions? |||,,,,
+9abfe1e69f6c,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe a project where you learned and applied machine learning concepts, focusing on your approach to evaluating model performance? |||",,,,
+8f14740b9659,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization project you’ve worked on and what challenges you faced in communicating the insights?,,,,
+07e84612c3cd,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you briefly describe the project’s goal and your role within it?
+
+|||
+
+That’s a great starting point.  Could you tell me, in one sentence, what you’re hoping to achieve with this model?",,,,
+c6569cff7a27,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, can you describe a time when you used data visualization to effectively communicate insights from your data analysis to stakeholders?|||",,,,
+f45f1805a1e5,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you describe a recent project where you utilized data visualization techniques and explain how it enhanced your findings or the understanding of the data? |||",,,,
+41f7df27d205,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Can you tell me more about your specific role and contributions to that project? |||,,,,
+b82e6abb2bc3,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s objective and the specific data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s goals.",,,,
+f1e91f73b099,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you please describe a project where you applied machine learning techniques and discuss the challenges faced and how they were overcome? |||,,,,
+03c71159a6b4,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about your role in that project? |||,,,,
+afb79db18c31,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"Great, could you please describe your specific role and contributions within the team during this project? |||",,,,
+8b43adde64bc,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,,,
+834b2d39a8cd,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Tell me, what excites you most about data science?
+
+|||
+
+Okay, great. Let’s dive in.",,,,
+532c04b827f9,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+2c22f637b638,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Could you briefly describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+84d31421554b,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you prefer for creating effective visualizations? |||,,,,
+415da9167927,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! Can you describe a time when visualizing complex datasets helped to make an important business decision for your previous role?
+
+|||",,,,
+eb4a49ef780a,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. To start, could you briefly describe a project where you successfully utilized data analysis?",,,,
+9e8caecabaec,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,How do you approach choosing the right visualization method for a specific dataset? |||,,,,
+c1f376fbb9a9,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's understandable for a Junior role. Can you tell me about a project where you analyzed data and drew insights? |||,,,,
+ad0f33e58d6d,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you explain a project where you’ve used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+4869746735ad,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about your role in that project? |||,,,,
+d1cf985a693a,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+04a2991519e3,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe your approach to solving a problem when faced with unfamiliar tools? Have some hands-on projects that demonstrate how you've learned new technologies quickly?
+
+|||",,,,
+f72c92791f8e,warmup,Warm-up question,"Hi, I am ready for the interview.",Tell me about a time you had to analyze a complex dataset and what tools you used.  |||,,,,
+1d01bfe97605,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,,,
+40fde08703eb,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s objective and the key challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s hear a bit more about your approach.",,,,
+784d59552181,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"What are some tools or techniques you find most effective for communicating complex data insights visually? 
+
+|||",,,,
+64fd74b37a8a,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you find most effective for visualizing complex data sets? |||,,,,
+24cf93fd15fd,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Could you describe a project where you learned about machine learning and how you evaluated its performance? |||,,,,
+4e8b78708031,warmup,Warm-up question,"Hi, I am ready for the interview.","Tell me about your experience with data visualization tools and how you would present complex datasets to a non-expert audience.
+
+|||",,,,
+de4e98d03049,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,How do you choose the right type of chart for different datasets in your projects? |||,,,,
+4a678787b189,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you please describe a project where you used machine learning to solve a real-world problem? |||,,,,
+b22f6f9a8b5e,warmup,Warm-up question,"Hi, I am ready for the interview.",Welcome! Tell me about a time you had to clean and prepare a dataset for analysis.  |||,,,,
+4fc0057dc683,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you briefly describe your role within the project and the specific algorithm you utilized?
+
+|||
+
+That’s a great starting point.  Could you tell me about a challenge you faced during the project and how you overcame it?",,,,
+729dff6b5ebf,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you prefer for creating effective data visualizations? |||,,,,
+2ea4eb63d98f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe a situation where you've used statistical methods to analyze data and what insights did it lead to? |||,,,,
+2ae5afbf66a8,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. Can you describe a project where you successfully utilized data analysis to solve a real-world problem?
+
+|||
+
+Okay, excellent! Tell me about your experience with Python and its relevant libraries.",,,,
+a5acad3931fa,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you walk me through a project where you had to implement a machine learning model and evaluate its performance? |||,,,,
+39a6f0cccfc3,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you describe your role in the project and how you collaborated with your team? |||,,,,
+2ab8ac30b40c,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"How familiar are you with creating interactive dashboards using tools like Tableau and Power BI for visualizing complex datasets?
+
+|||",,,,
+b94101834b29,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+I’m confident you’ll be a valuable addition to our team.",,,,
+e85310d8214d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+07d69128b06f,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you tell me about your role in that project? |||,,,,
+41c37896bb7f,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"How comfortable are you with creating interactive dashboards for business intelligence purposes?
+
+|||",,,,
+9aeca6d911b9,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+fa45609bacb7,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great to hear! Can you tell me about a project where you had to work with messy or incomplete data? |||,,,,
+1144d23de1a7,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe a time when you've had to learn something new quickly and how that relates to adapting in tech roles? ||
+
+|||",,,,
+6f7a250daac3,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+22fb30219e48,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe a project where you learned and applied machine learning concepts, and how you evaluated its performance? |||",,,,
+b37892ff5eef,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you describe how your team's collaboration contributed to developing and refining this specific ML model? |||,,,,
+2239c1be15e5,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s dive in. Can you describe a project where you used data to solve a challenging problem?
+
+|||
+
+It’s great to hear you’re excited! We’re looking for enthusiastic individuals.",,,,
+6e7edec3b78f,warmup,Warm-up question,"Hi, I am ready for the interview.",That’s fantastic! Let’s begin. Could you briefly describe a project where you leveraged data to solve a real-world problem?,,,,
+f6e391424be2,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization you’ve created that effectively communicated a key insight.,,,,
+7d3a4becd3d9,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great to hear! Can you tell me about a time you had to explain a complex technical concept to someone with limited technical understanding? |||,,,,
+9282603e8831,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Can you tell me about a time you had to present complex data insights in a clear and engaging way?  |||,,,,
+b617ac6ddf3f,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you prefer for creating effective data visualizations? |||,,,,
+6ee07edd44fe,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I’m confident you’ll be a valuable asset to our team.",,,,
+99d5f1e26079,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! How comfortable are you with creating interactive dashboards to communicate insights effectively using tools like Tableau and Power BI?
+
+|||",,,,
+8e44384aa8e3,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your background with us! Would there be anything else you'd like me to know or discuss regarding this position? |||,,,,
+ce901ee84b03,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s core objective and the data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s challenges and successes.",,,,
+1ede80c6aa4e,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. To start, can you describe a project where you successfully leveraged data to solve a real-world problem?",,,,
+7ec3ade2e261,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you walk me through your thought process and approach when building this collaboration-focused data science pipeline? |||,,,,
+11e5ab80a780,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,How do you approach choosing the right visualizations to effectively communicate insights from complex datasets? |||,,,,
+df8d92d7f9e8,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+0055ff380aff,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Could you please explain the role each team member played in the development and deployment of the model? |||,,,,
+5c8157235915,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's understandable for a Junior role. Can you tell me about your experience with data manipulation and cleaning?  |||,,,,
+f1cb17b2dd5c,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+We’re excited to hear from you and look forward to discussing this opportunity further.",,,,
+d97acd566d9e,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Could you describe a time you used a visualization to explain a complex dataset to a non-technical audience?,,,,
+5a318c3a5489,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+00e11d369aae,warmup,Warm-up question,"Hi, I am ready for the interview.",Tell me about a time you had to work with a complex dataset and what challenges you faced.  |||,,,,
+c0900110d4fa,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s dive in. Can you describe a time you tackled a challenging data problem and the steps you took to solve it?
+
+|||
+
+Okay, excellent.",,,,
+70a37d6683e1,warmup,Warm-up question,"Hi, I am ready for the interview.","Tell me about a time you had to clean and prepare a dataset for analysis. 
+
+|||",,,,
+49c4fc28f9fc,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Great! Can you walk me through your specific role and contributions within that project? |||,,,,
+8d526deb41f4,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That's fantastic! Can you tell me about your specific role within that project and what tools you used? 
+
+|||",,,,
+9064793b4686,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you tell me about a project where you applied machine learning techniques and explain the results?|||,,,,
+e24e57d85073,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe a situation where you've had to evaluate data without using advanced tools like Python libraries? |||,,,,
+9f0b12e622b6,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Could you describe your approach to evaluating a new dataset's suitability for building predictive models? |||,,,,
+838dbae1a3bd,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe an instance where you've had to evaluate performance metrics for a project? |||,,,,
+1ae6d28d7b20,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Okay, great. Let’s begin. Could you tell me about a recent data science project where you faced a significant challenge and how you overcame it?",,,,
+3a7e9969c183,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you briefly describe the project’s goal and the key challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into your approach to problem-solving.",,,,
+4576b48a1841,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, could you share an example of a complex data visualization project you've worked on and explain how you approached it to solve a specific problem? |||",,,,
+0e7fa44bd03a,warmup,Warm-up question,"Hi, I am ready for the interview.","That’s fantastic! Let’s begin. Could you describe a data science project you’re particularly proud of and why it was impactful?
+
+|||
+
+That’s a great starting point.",,,,
+41c2b73d4685,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,,,
+3c5c2ae479e4,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied data analysis techniques? |||,,,,
+962d7c962899,warmup,Warm-up question,"Hi, I am ready for the interview.","Great, let's start. Can you tell me about your experience with data cleaning and preprocessing? |||",,,,
+c5152abea399,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,,,
+eadb2fe5b483,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Could you describe a time you used a visualization to effectively communicate a complex dataset?,,,,
+565691724e9d,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a challenging data science project you've worked on and how it impacted your learning process? 
+
+|||",,,,
+4d215523e4ed,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe your experience with data visualization tools and how you've used them to communicate insights?
+
+|||",,,,
+1ede1d22c207,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's great! Can you tell me about your role in that project and what challenges you faced? |||,,,,
+7d889c666387,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a challenging data problem you've encountered and how did you approach solving it?
+
+|||",,,,
+13bd6fd5690b,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,,,
+46ee6fbd7025,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Okay, let’s start with this: Can you describe a data visualization you found particularly effective and why?",,,,
+fd8b6c5b5c55,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+I’m confident you’ll be a valuable asset to our team.",,,,
+4f335187279a,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you walk me through a scenario where you've had to interpret complex data results? How did that process help in making decisions?
+
+|||",,,,
+1d6c51a9fab2,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Can you tell me about your specific role in that project and what challenges you faced? |||,,,,
+b7dfef050b52,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you describe how your team's collaboration influenced both individual contributions and overall outcomes in building this machine learning model? |||,,,,
+641e76f27060,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you walk me through your approach to selecting features and evaluating their significance in improving this project's predictive performance? |||,,,,
+d8abb56992b4,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a great fit for you.
+
+|||
+
+I’m confident you’ll be a valuable addition to our team.",,,,
+9ae8129d4219,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a time when you had to learn something new for a project? |||,,,,
+694fcb196041,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Could you describe a visualization you’ve created that effectively communicates a complex dataset?,,,,
+6c2ac0cd96a7,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Can you tell me about a time you had to present complex data insights in a clear and engaging way? 
+
+|||",,,,
+09bace4647e1,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you share what kind of data and techniques you used in that project? |||,,,,
+83fde72d109c,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied statistical methods to solve a problem? |||,,,,
+0a081083034f,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"How familiar are you with creating interactive visualizations using tools like Tableau or Power BI?
+
+|||",,,,
+94729d6d669e,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"What are some tools or techniques you find most effective for communicating complex data insights visually? 
+
+|||",,,,
+dc4385d91cea,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Can you tell me about your specific role and contributions to that project? |||,,,,
+181ee46388f6,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Okay, let’s start. Can you describe a time you tackled a problem where you needed to analyze data to find insights, even without formal machine learning experience?",,,,
+59696f08947e,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you walk me through a project where you learned and applied machine learning principles, focusing on how you evaluated your model's performance? |||",,,,
+42c823b54203,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Can you describe a recent project where you utilized data visualization to communicate complex insights effectively? |||,,,,
+db265bda79da,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Can you describe a situation where you've successfully used data analysis to solve an issue? Even without direct ML expertise, understanding problem-solving skills is key for us.
+
+|||",,,,
+391a5d61d561,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I appreciate you sharing your experience. Let’s see if it aligns with our team’s needs.",,,,
+444ab83e3bc4,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you briefly describe the project’s objective and the type of data you used?
+
+|||
+
+That’s a great starting point. Let’s delve a little deeper into your approach to data preparation and model selection.",,,,
+7ce0594834fe,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,What specific role did you play in the development and implementation of this machine learning project? |||,,,,
+2ce69fba393f,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? 
+
+|||",,,,
+3f94b32200b3,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,That's alright! Can you tell me about a time you tackled a complex data analysis problem and what tools you used? |||,,,,
+42f655a81a9a,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Could you please walk me through the specific role each team member played in the project and how your contributions influenced the final outcome? |||,,,,
+67ebda1ff8c3,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you describe a project where you worked on implementing and evaluating a machine learning model? How did you approach it and what challenges did you overcome? |||,,,,
+725ef5454a8d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,,,
+50478f6e77d6,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,,,
+42b8b53e8b02,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you please share a challenging problem you've solved with your past datasets? Your insights would be valuable for us.
+
+|||",,,,
+7bb1a0e2c60d,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure, can you explain a project where you used data visualization to communicate insights effectively? |||",,,,
+85c4652b0cdc,warmup,Warm-up question,"Hi, I am ready for the interview.","Can you describe a complex dataset you've worked with and how you'd approach analyzing it?
+
+|||",,,,
+ee2d383809f7,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,It's great to hear about your data science background. Could you please share an example project where you utilized machine learning techniques and explain the results? |||,,,,
+e6331f1b4de0,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s primary goal and the type of data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s context.",,,,
+00e24d1474bb,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s objective and the specific challenge you tackled?
+
+|||
+
+That’s great to hear! What’s your preferred method for evaluating model performance?",,,,
+1f4254e85585,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Thank you for your time. We appreciate your interest in DataTech Berlin. |||,,,,
+373e7bc213c9,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Could you please describe your specific role and contributions within the team during this project? |||,,,,
+c5ec98f2361d,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,Understood. Can you describe a project where you applied machine learning techniques and explain the results and impact? |||,,,,
+a0e758fbbf91,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into your experience with machine learning algorithms. Could you please share an example where you applied a specific algorithm and discuss its impact on the project? |||,,,,
+29a0e8b760cb,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,That's great! Can you tell me about a time you had to explain a complex technical concept to someone with limited technical knowledge? |||,,,,
+376adbd40598,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That's impressive! Can you tell me about your specific role and contributions to that project? 
+
+|||",,,,
+99811ee344f7,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied data analysis techniques? |||,,,,
+7917bc11c201,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,,,
+c7f75689bbfc,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Tell me about a data visualization technique you’ve successfully used and why it worked well.,,,,
+b4ebe264cf41,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you describe your role and responsibilities within that collaborative environment? |||,,,,
+99d0af17057d,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Sure! Could you describe a situation where effective data visualization significantly impacted decision-making for your previous projects?
+
+|||",,,,
+d6a85bc543be,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you had to analyze data despite the lack of specific experience in those areas? |||,,,,
+fe9a881779f3,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's impressive! Could you please explain the specific role each member played in the project and how the model was integrated into the final solution? |||,,,,
+a1d71ee8bbab,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you tell me about the project’s goal and the specific challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s see if your experience aligns with our team’s needs.",,,,
+5c5bb280af6e,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,What tools and techniques do you use for creating effective data visualizations?|||,,,,
+fa10d59cc935,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,That's great! Can you tell me about your specific role and contributions to that project?  |||,,,,
+7254ed9f1b86,warmup,Warm-up question,"Hi, I am ready for the interview.",Tell me about a time you had to clean and prepare messy data for analysis.  |||,,,,
+15ab7b3ab473,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Can you describe a time when you had to present complex data insights in a clear and engaging way? |||,,,,
+aed5358d846b,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Thank you for sharing your background with us! Could we start by discussing a specific project you've worked on that you're particularly proud of?
+
+|||",,,,
+3aafd4493e43,warmup,Warm-up question,"Hi, I am ready for the interview.","Great, let's start. Can you tell me about a project where you applied data analysis to solve a problem? |||",,,,
+b9a7402f8ffa,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Could you describe a time when you've had to evaluate and improve upon an existing process? |||,,,,
+b8ca1a77997b,warmup,Warm-up question,"Hi, I am ready for the interview.","Welcome! Tell me about a time you had to analyze a large dataset and what challenges you faced. 
+
+|||",,,,
+6a01b086ee58,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,Can you tell me about a project where you applied data analysis techniques? |||,,,,
+1730e2bb5a6b,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Let's dive into a question about a project you've worked on. Can you tell me about a data analysis problem you tackled and the approach you took to solve it? |||,,,,
+f1aa5e974649,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,Can you share what specific challenges you faced during that project? |||,,,,

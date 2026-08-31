@@ -1,0 +1,46 @@
+RQ2 FINAL STATISTICAL ANALYSIS
+========================================================================
+Raw source: rq2_results\rq2_raw_p100_final_rq2_20260811_050435.csv
+Matched repetitions: 20
+
+DESCRIPTIVE SUMMARY
+architecture  n_turns  n_sessions  latency_mean_ms  latency_median_ms  latency_sd_ms  latency_p95_ms  question_rule_pass_rate_corrected  length_rule_pass_rate_corrected  output_contract_pass_rate_corrected  proper_closing_rate  nonempty_response_rate  safety_intervention_turns
+    baseline      220          20      1045.622418          1028.7630     167.204946       1306.7015                           0.786364                         0.918182                             0.781818                 0.15                0.922727                          0
+ multi_agent      220          20      1173.379814          1182.4245      79.596207       1295.4287                           0.981818                         1.000000                             0.981818                 1.00                1.000000                         88
+
+PAIRED SESSION-LEVEL LATENCY
+Baseline session-mean latency: 1045.622 ms
+Multi-agent session-mean latency: 1173.380 ms
+Mean paired overhead (multi - baseline): 127.757 ms
+Relative overhead: 12.22%
+95% CI of paired mean difference: [93.294, 162.221] ms
+Cohen's dz: 1.735
+Paired t-test: t(19)=7.7590, p=2.631871e-07
+Wilcoxon signed-rank latency: W=6.0000, p=2.6702881e-05
+
+PAIRED SESSION-LEVEL OUTPUT RELIABILITY
+Baseline mean contract pass rate/session: 0.7818
+Multi-agent mean contract pass rate/session: 0.9818
+Mean paired improvement: 0.2000
+Wilcoxon signed-rank contract rate: W=0.0000, p=0.00015805118
+
+PROPER CLOSING
+Baseline proper closings: 3/20
+Multi-agent proper closings: 20/20
+Discordant pairs (baseline fail/multi pass, baseline pass/multi fail): 17, 0
+Exact McNemar/binomial p: 1.5258789e-05
+
+EXECUTION ORDER CHECK (DESCRIPTIVE)
+                                        mean        std  count
+architecture condition_position                               
+baseline     1                   1042.907909  61.568855     10
+             2                   1048.336927  87.930152     10
+multi_agent  1                   1166.809536  12.707133     10
+             2                   1179.950091  18.185673     10
+
+MULTI-AGENT SAFETY INTERVENTIONS
+Turns with at least one safety flag: 88/220 (40.00%)
+     violation  count
+ MALFORMED_SEP     88
+   MISSING_SEP     88
+MULTI_QUESTION      4

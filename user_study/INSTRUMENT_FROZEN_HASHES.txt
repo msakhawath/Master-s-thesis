@@ -1,0 +1,12 @@
+﻿STUDY INSTRUMENT - FROZEN 2026-08-16 16:25:45
+Separate from study_frozen_manifest.json, which covers the 16 system files.
+This protects the measurement instrument. Neither file may change once P01 begins.
+
+Instrument: 11 Likert items (Q1-Q11) + 3 open questions (Q12-Q14). No SUS. No demographics.
+
+.\user_study\record_participant.py
+  SHA256: 7C5C61204C8C2BC720CC2D6DAABF5DB52CA3B13CBEB72EEF5E5463C22646072A
+  bytes : 16761
+.\user_study\QUESTIONNAIRE.md
+  SHA256: 8FAF436656A6AA7705AA80AE613BCFC84EA90CFAA33E2092C9B527E6B4ECBC61
+  bytes : 5151

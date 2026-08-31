@@ -1,0 +1,85 @@
+{
+  "status": "RQ3-B CODE FROZEN FOR FINAL COLLECTION",
+  "created_at": "2026-08-11T14:39:31.363826+02:00",
+  "design": {
+    "matched_repetitions": 20,
+    "conditions": [
+      "simple",
+      "vap_turngpt"
+    ],
+    "trials_per_condition": 20,
+    "total_trials": 40,
+    "inferential_unit": "matched scripted phrase repetition",
+    "simple_silence_ms": 2500,
+    "partial_asr_llm_prefetch": false,
+    "same_multi_agent_backend": true,
+    "same_model": "qwen2.5:7b"
+  },
+  "predictive_policy": {
+    "min_gap_ms": 500,
+    "vap_pnow_yield_threshold": 0.48,
+    "vap_pfut_yield_threshold": 0.48,
+    "user_low_now_for_yield": 0.47,
+    "user_low_fut_for_yield": 0.46,
+    "turngpt_yield_timeouts": [
+      [
+        0.5,
+        200
+      ],
+      [
+        0.3,
+        400
+      ],
+      [
+        0.2,
+        800
+      ],
+      [
+        0.1,
+        1600
+      ],
+      [
+        0.0,
+        2500
+      ]
+    ]
+  },
+  "files": {
+    "rq3b_main.py": {
+      "sha256": "8cf4a67bb46eb3c3b5e8b411e56f0b759e8012c49f1f0b2cd1a02f11ed4dca60",
+      "bytes": 15526
+    },
+    "rq3b_policy.py": {
+      "sha256": "2f5e4a868d58fad566d4a215b644066cf4bbdb062438682773b832eb7a844c02",
+      "bytes": 6273
+    },
+    "multi_agent\\agents.py": {
+      "sha256": "ee6672cba9f38805d76f5549304b18ee451fab239c0eeb87df8b720527046fed",
+      "bytes": 22888
+    },
+    "multi_agent\\graph.py": {
+      "sha256": "ac26b04a466c6bdf6bc06ac46c1b3260f3372e995f23342563220043de7a1bbe",
+      "bytes": 2796
+    },
+    "multi_agent\\state.py": {
+      "sha256": "41ed657c983a57979e34f8fd415de4f29b7488911802ba78591050f5a05f77db",
+      "bytes": 3529
+    },
+    "asr_module.py": {
+      "sha256": "f74b1863c475e8e1cfbdb15120a1c734852ad5d59aa1396648515d254dd34561",
+      "bytes": 14279
+    },
+    "vap_module.py": {
+      "sha256": "5933de47a16af5c9ff361035c4fb684453fb945fd161eec775a15587251f6cc6",
+      "bytes": 15616
+    },
+    "turngpt_module.py": {
+      "sha256": "24f37eb2a378ce667fa55522e5bd5fd9f303c8471825400e954fa17d39fe9bfd",
+      "bytes": 12133
+    },
+    "furhat_realtime_module.py": {
+      "sha256": "a440acba317aaf815a99628aee2378ff20449c6de619613862a6754567ee0d05",
+      "bytes": 9696
+    }
+  }
+}

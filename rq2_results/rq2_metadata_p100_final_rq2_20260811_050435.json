@@ -1,0 +1,24 @@
+{
+  "label": "p100_final_rq2",
+  "repetitions": 20,
+  "turns_per_condition_per_repeat": 11,
+  "model": "qwen2.5:7b",
+  "temperature": 0.5,
+  "max_tokens": 100,
+  "baseline_prompt_mode": "controlled_monolithic_single_agent",
+  "multi_agent": "rule_orchestrator_plus_specialists_plus_safety",
+  "endpoint": "http://127.0.0.1:11435/v1",
+  "topics": [
+    "education and academic background",
+    "programming skills and tools",
+    "machine learning and modelling experience",
+    "data wrangling and preprocessing",
+    "model evaluation and metrics",
+    "data visualization and storytelling",
+    "real-world data science projects",
+    "teamwork and communication",
+    "problem solving approach",
+    "career goals in data science"
+  ],
+  "metric_definition": "backend_response_ready_ms = elapsed wall-clock time from architecture invocation to usable returned text; excludes ASR/TTS."
+}

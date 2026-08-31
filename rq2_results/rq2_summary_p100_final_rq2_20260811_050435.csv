@@ -1,0 +1,3 @@
+architecture,n_turns,latency_mean_ms,latency_median_ms,latency_sd_ms,latency_p95_ms,question_rule_pass_rate,output_contract_pass_rate,closing_pass_rate,safety_violation_turns
+baseline,220,1045.622,1028.763,167.205,1306.702,0.8818,0.8773,1.0,0
+multi_agent,220,1173.38,1182.425,79.596,1295.429,1.0,1.0,1.0,88

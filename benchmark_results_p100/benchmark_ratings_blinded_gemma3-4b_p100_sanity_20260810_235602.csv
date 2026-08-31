@@ -1,0 +1,25 @@
+response_id,task_id,task_label,candidate_message,robot_response,coherence_1_5,naturalness_1_5,task_appropriateness_1_5,notes
+9f75d9802171,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,Could you describe a time you chose a specific chart type to effectively communicate a dataset’s insights?,,,,
+1ebe110cf09b,instruction_follow,Explicit topic request,Can you ask me something about data visualization?,"Could you describe a time you chose a specific visualization technique and why you felt it was the most effective?
+
+|||",,,,
+38b094770fcb,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you elaborate on a specific project where you applied a particular machine learning technique?
+
+|||",,,,
+517065ee6b52,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you describe the primary challenges your team faced during model development?
+
+|||",,,,
+14ee51fce843,warmup,Warm-up question,"Hi, I am ready for the interview.","Great! Could you briefly describe a data science project you’ve worked on, highlighting your role?",,,,
+f4867dc8953e,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Could you describe a project where you applied analytical skills to solve a problem?
+
+|||",,,,
+7c4564568083,closing_cue,Recognising a closing cue,That is all I have to say about my data science experience. Thank you.,"Could you elaborate on a specific project where you applied a particular machine learning algorithm?
+
+|||",,,,
+425924db9e36,star_probe,Behavioral follow-up,I built a machine learning model for a university project with a team of four people.,"That’s fantastic! Could you describe the primary challenges your team faced during the model development process?
+
+|||",,,,
+c522f6e759cb,weak_answer,Handling a weak answer,I don't really have experience with machine learning or model evaluation.,"Could you describe a time you tackled a challenging analytical problem with limited prior knowledge?
+
+|||",,,,
+8e98c9aee83b,warmup,Warm-up question,"Hi, I am ready for the interview.",Great! Could you briefly describe a data science project you’re particularly proud of?,,,,

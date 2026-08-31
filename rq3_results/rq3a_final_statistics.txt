@@ -1,0 +1,142 @@
+========================================
+RQ3-A FINAL STATISTICAL ANALYSIS
+========================================
+
+Raw turns: 792
+Matched repetitions per condition: 24
+Inferential unit: matched session (n=24 per condition)
+
+===== CONDITION DESCRIPTIVES =====
+
+full
+  latency mean: 1184.224 ms
+  latency median: 1180.415 ms
+  latency SD: 109.327 ms
+  latency P95: 1348.393 ms
+  behavioral pass: 100.00%
+  strict pass: 100.00%
+  safety interventions: 111 (42.05%)
+  topic/state pass: 100.00%
+  closing pass: 100.00%
+
+no_safety
+  latency mean: 1181.577 ms
+  latency median: 1188.133 ms
+  latency SD: 103.592 ms
+  latency P95: 1344.326 ms
+  behavioral pass: 97.35%
+  strict pass: 66.67%
+  safety interventions: 0 (0.00%)
+  topic/state pass: 100.00%
+  closing pass: 100.00%
+
+no_persona
+  latency mean: 1199.574 ms
+  latency median: 1191.683 ms
+  latency SD: 134.428 ms
+  latency P95: 1374.052 ms
+  behavioral pass: 100.00%
+  strict pass: 100.00%
+  safety interventions: 86 (32.58%)
+  topic/state pass: 100.00%
+  closing pass: 100.00%
+
+===== PLANNED PAIRED CONTRASTS =====
+
+session_mean_latency_ms | full_vs_no_safety
+  full mean: 1184.224258
+  ablated mean: 1181.576606
+  difference: 2.647652
+  bootstrap 95% CI: [-11.102412, 16.278029]
+  paired t: 0.368071
+  paired t p: 0.71618626
+  paired t Holm p: 0.71618626
+  Cohen dz: 0.075132
+  Wilcoxon W: 133.000000
+  Wilcoxon p: 0.64314222
+  Wilcoxon Holm p: 0.64314222
+  sign test: +13 / -11
+  sign-test p: 0.83881974
+
+session_mean_latency_ms | full_vs_no_persona
+  full mean: 1184.224258
+  ablated mean: 1199.574144
+  difference: -15.349886
+  bootstrap 95% CI: [-33.145202, 1.208829]
+  paired t: -1.720428
+  paired t p: 0.098783041
+  paired t Holm p: 0.19756608
+  Cohen dz: -0.351181
+  Wilcoxon W: 101.000000
+  Wilcoxon p: 0.16880965
+  Wilcoxon Holm p: 0.3376193
+  sign test: +9 / -15
+  sign-test p: 0.30745625
+
+behavioral_pass_rate | full_vs_no_safety
+  full mean: 1.000000
+  ablated mean: 0.973485
+  difference: 0.026515
+  bootstrap 95% CI: [0.007576, 0.045455]
+  Wilcoxon W: 0.000000
+  Wilcoxon p: 0.019630657
+  Wilcoxon Holm p: 0.039261315
+  sign test: +6 / -0
+  sign-test p: 0.03125
+
+behavioral_pass_rate | full_vs_no_persona
+  full mean: 1.000000
+  ablated mean: 1.000000
+  difference: 0.000000
+  bootstrap 95% CI: [0.000000, 0.000000]
+  Wilcoxon W: 0.000000
+  Wilcoxon p: 1
+  Wilcoxon Holm p: 1
+  sign test: +0 / -0
+  sign-test p: 1
+
+strict_pass_rate | full_vs_no_safety
+  full mean: 1.000000
+  ablated mean: 0.666667
+  difference: 0.333333
+  bootstrap 95% CI: [0.295455, 0.371212]
+  Wilcoxon W: 0.000000
+  Wilcoxon p: 1.4689883e-05
+  Wilcoxon Holm p: 2.9379766e-05
+  sign test: +24 / -0
+  sign-test p: 1.1920929e-07
+
+strict_pass_rate | full_vs_no_persona
+  full mean: 1.000000
+  ablated mean: 1.000000
+  difference: 0.000000
+  bootstrap 95% CI: [0.000000, 0.000000]
+  Wilcoxon W: 0.000000
+  Wilcoxon p: 1
+  Wilcoxon Holm p: 1
+  sign test: +0 / -0
+  sign-test p: 1
+
+===== SAFETY REPAIR EFFECT =====
+
+full
+  raw behavioral pass: 98.11%
+  final behavioral pass: 100.00%
+  raw failures: 5
+  final failures: 0
+  interventions: 111
+  intervention rate: 42.05%
+  Wilcoxon p: 0.025347319
+  sign-test p: 0.0625
+
+no_persona
+  raw behavioral pass: 93.94%
+  final behavioral pass: 100.00%
+  raw failures: 16
+  final failures: 0
+  interventions: 86
+  intervention rate: 32.58%
+  Wilcoxon p: 0.00016244085
+  sign-test p: 6.1035156e-05
+
+Analysis complete.

@@ -1,0 +1,456 @@
+response_id,model,parameter_size,quantization_level,repeat,order_in_repeat,seed,temperature,task_id,task_label,expected_mode,candidate_message,first_token_ms,total_ms,prompt_variant,response,error,word_count,question_mark_count,question_units_heuristic,expected_question_count,question_count_pass,separator_count,separator_present,separator_final,malformed_pipe_run,separator_strict_pass,under_word_limit,forbidden_formatting,auto_instruction_pass
+0e7fa44bd03a,gemma3:1b,999.89M,Q4_K_M,1,1,21260702,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",488.8,875.6,standard,"That’s fantastic! Let’s begin. Could you describe a data science project you’re particularly proud of and why it was impactful?
+
+|||
+
+That’s a great starting point.",,25,1,2,1,NO,1,YES,NO,NO,NO,YES,NO,NO
+a1d71ee8bbab,gemma3:1b,999.89M,Q4_K_M,1,2,21260703,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,470.1,906.4,standard,"That’s fantastic! Could you tell me about the project’s goal and the specific challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s see if your experience aligns with our team’s needs.",,31,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+a36214c0845c,gemma3:1b,999.89M,Q4_K_M,1,3,21260704,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,509.1,642.9,standard,Tell me about a data visualization you’ve found particularly effective and why?,,12,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+6ee07edd44fe,gemma3:1b,999.89M,Q4_K_M,1,4,21260705,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,470.6,820.6,standard,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I’m confident you’ll be a valuable asset to our team.",,22,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+6eeff4223f7f,gemma3:1b,999.89M,Q4_K_M,1,5,21260706,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,426.5,647.9,standard,"Okay, let’s start. Could you briefly describe a project where you applied data analysis and what you learned from it?",,20,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+e55cf89b1b2f,gemma3:1b,999.89M,Q4_K_M,2,1,21260802,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,418.6,719.9,standard,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,26,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+206f7eb48b5e,gemma3:1b,999.89M,Q4_K_M,2,2,21260803,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",411.0,814.5,standard,"That’s fantastic! Let’s begin. Could you briefly describe a project where you used data analysis to solve a problem?
+
+|||
+
+Welcome to DataTech Berlin! I’m excited to learn more about you.",,30,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+812381f811fa,gemma3:1b,999.89M,Q4_K_M,2,3,21260804,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,456.2,607.7,standard,Tell me about a data visualization you’ve created that successfully communicated a key insight.,,14,0,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+b82e6abb2bc3,gemma3:1b,999.89M,Q4_K_M,2,4,21260805,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,473.6,912.3,standard,"That’s fantastic! Could you tell me about the project’s objective and the specific data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s goals.",,30,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+391a5d61d561,gemma3:1b,999.89M,Q4_K_M,2,5,21260806,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,423.9,832.7,standard,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity.
+
+|||
+
+I appreciate you sharing your experience. Let’s see if it aligns with our team’s needs.",,27,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+e2520e33dbaf,gemma3:1b,999.89M,Q4_K_M,3,1,21260902,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,452.5,666.2,standard,"Okay, let’s start. Could you briefly describe a project where you applied data analysis and what you learned from it?",,20,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+694fcb196041,gemma3:1b,999.89M,Q4_K_M,3,2,21260903,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,447.7,588.2,standard,Could you describe a visualization you’ve created that effectively communicates a complex dataset?,,13,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+691470e285fb,gemma3:1b,999.89M,Q4_K_M,3,3,21260904,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",435.9,823.8,standard,"That’s fantastic! Let’s dive in. Can you describe a time you tackled a challenging data problem and how you approached it?
+
+|||
+
+We’re excited to hear more about your experience.",,29,1,2,1,NO,1,YES,NO,NO,NO,YES,NO,NO
+00e24d1474bb,gemma3:1b,999.89M,Q4_K_M,3,4,21260905,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,436.9,816.6,standard,"That’s fantastic! Could you tell me about the project’s objective and the specific challenge you tackled?
+
+|||
+
+That’s great to hear! What’s your preferred method for evaluating model performance?",,28,2,2,1,NO,1,YES,NO,NO,NO,YES,NO,NO
+f1cb17b2dd5c,gemma3:1b,999.89M,Q4_K_M,3,5,21260906,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,427.8,834.5,standard,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+We’re excited to hear from you and look forward to discussing this opportunity further.",,32,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+ad0f33e58d6d,gemma3:1b,999.89M,Q4_K_M,4,1,21261002,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,419.7,739.3,standard,"Okay, let’s start. Can you explain a project where you’ve used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,26,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+2239c1be15e5,gemma3:1b,999.89M,Q4_K_M,4,2,21261003,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",443.8,895.8,standard,"That’s fantastic! Let’s dive in. Can you describe a project where you used data to solve a challenging problem?
+
+|||
+
+It’s great to hear you’re excited! We’re looking for enthusiastic individuals.",,30,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+1e933d637152,gemma3:1b,999.89M,Q4_K_M,4,3,21261004,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,451.3,838.4,standard,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+We’re excited to hear from you and look forward to moving forward.",,30,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+444ab83e3bc4,gemma3:1b,999.89M,Q4_K_M,4,4,21261005,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,456.7,910.9,standard,"That’s fantastic! Could you briefly describe the project’s objective and the type of data you used?
+
+|||
+
+That’s a great starting point. Let’s delve a little deeper into your approach to data preparation and model selection.",,35,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+d97acd566d9e,gemma3:1b,999.89M,Q4_K_M,4,5,21261006,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,447.0,631.5,standard,Could you describe a time you used a visualization to explain a complex dataset to a non-technical audience?,,18,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+2c22f637b638,gemma3:1b,999.89M,Q4_K_M,5,1,21261102,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,427.8,736.0,standard,"Okay, let’s start. Could you briefly describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,27,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+d8abb56992b4,gemma3:1b,999.89M,Q4_K_M,5,2,21261103,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,443.2,849.4,standard,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a great fit for you.
+
+|||
+
+I’m confident you’ll be a valuable addition to our team.",,30,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+1ede80c6aa4e,gemma3:1b,999.89M,Q4_K_M,5,3,21261104,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",455.9,728.1,standard,"That’s fantastic! Let’s begin. To start, can you describe a project where you successfully leveraged data to solve a real-world problem?",,21,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+4fc0057dc683,gemma3:1b,999.89M,Q4_K_M,5,4,21261105,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,437.9,896.9,standard,"That’s fantastic! Could you briefly describe your role within the project and the specific algorithm you utilized?
+
+|||
+
+That’s a great starting point.  Could you tell me about a challenge you faced during the project and how you overcame it?",,39,2,3,1,NO,1,YES,NO,NO,NO,NO,NO,NO
+c7f75689bbfc,gemma3:1b,999.89M,Q4_K_M,5,5,21261106,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,449.6,607.1,standard,Tell me about a data visualization technique you’ve successfully used and why it worked well.,,15,0,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+e451bcb62fe1,gemma3:1b,999.89M,Q4_K_M,6,1,21261202,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,422.9,623.3,standard,"Okay, let’s start with this: Could you describe a data visualization you found particularly effective and why?",,17,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+d1cf985a693a,gemma3:1b,999.89M,Q4_K_M,6,2,21261203,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,410.3,728.8,standard,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,26,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+eb4a49ef780a,gemma3:1b,999.89M,Q4_K_M,6,3,21261204,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",431.4,660.3,standard,"That’s fantastic! Let’s begin. To start, could you briefly describe a project where you successfully utilized data analysis?",,18,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+3a7e9969c183,gemma3:1b,999.89M,Q4_K_M,6,4,21261205,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,431.2,861.1,standard,"That’s fantastic! Could you briefly describe the project’s goal and the key challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into your approach to problem-solving.",,30,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+fd8b6c5b5c55,gemma3:1b,999.89M,Q4_K_M,6,5,21261206,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,438.6,835.6,standard,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+I’m confident you’ll be a valuable asset to our team.",,28,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+46ee6fbd7025,gemma3:1b,999.89M,Q4_K_M,7,1,21261302,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,471.4,659.3,standard,"Okay, let’s start with this: Can you describe a data visualization you found particularly effective and why?",,17,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+40fde08703eb,gemma3:1b,999.89M,Q4_K_M,7,2,21261303,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,472.9,875.1,standard,"That’s fantastic! Could you tell me about the project’s objective and the key challenges you faced?
+
+|||
+
+That’s a great starting point. Let’s hear a bit more about your approach.",,29,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+2ae5afbf66a8,gemma3:1b,999.89M,Q4_K_M,7,3,21261304,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",393.4,819.9,standard,"That’s fantastic! Let’s begin. Can you describe a project where you successfully utilized data analysis to solve a real-world problem?
+
+|||
+
+Okay, excellent! Tell me about your experience with Python and its relevant libraries.",,33,1,2,1,NO,1,YES,NO,NO,NO,YES,NO,NO
+0f75bd285a51,gemma3:1b,999.89M,Q4_K_M,7,4,21261305,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,432.0,940.6,standard,"That’s perfectly alright. It’s good to know you’re ready for a conversation. Let’s begin.
+
+Okay, tell me, when did you start developing your data science skills and what’s a project you’re particularly proud of?
+
+|||",,34,1,2,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+0198d0993530,gemma3:1b,999.89M,Q4_K_M,7,5,21261306,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,415.0,719.3,standard,"Okay, let’s start. Can you briefly describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,27,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+834b2d39a8cd,gemma3:1b,999.89M,Q4_K_M,8,1,21261402,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",417.1,683.7,standard,"That’s fantastic! Tell me, what excites you most about data science?
+
+|||
+
+Okay, great. Let’s dive in.",,16,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+eadb2fe5b483,gemma3:1b,999.89M,Q4_K_M,8,2,21261403,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,431.8,572.9,standard,Could you describe a time you used a visualization to effectively communicate a complex dataset?,,15,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+b94101834b29,gemma3:1b,999.89M,Q4_K_M,8,3,21261404,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,408.6,811.4,standard,"That’s perfectly alright. I appreciate you sharing your experience. Let’s see if we can find a good fit.
+
+|||
+
+I’m confident you’ll be a valuable addition to our team.",,28,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+e6331f1b4de0,gemma3:1b,999.89M,Q4_K_M,8,4,21261405,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,428.9,869.2,standard,"That’s fantastic! Could you tell me about the project’s primary goal and the type of data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s context.",,32,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+181ee46388f6,gemma3:1b,999.89M,Q4_K_M,8,5,21261406,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,430.7,718.0,standard,"Okay, let’s start. Can you describe a time you tackled a problem where you needed to analyze data to find insights, even without formal machine learning experience?",,27,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+f6e391424be2,gemma3:1b,999.89M,Q4_K_M,9,1,21261502,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,454.9,604.1,standard,Tell me about a data visualization you’ve created that effectively communicated a key insight.,,14,0,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+1ae6d28d7b20,gemma3:1b,999.89M,Q4_K_M,9,2,21261503,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,448.8,725.7,standard,"Okay, great. Let’s begin. Could you tell me about a recent data science project where you faced a significant challenge and how you overcame it?",,25,1,2,0,NO,0,NO,NO,NO,NO,YES,NO,NO
+31154bdaf61d,gemma3:1b,999.89M,Q4_K_M,9,3,21261504,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,458.7,759.9,standard,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,26,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+c0900110d4fa,gemma3:1b,999.89M,Q4_K_M,9,4,21261505,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",412.4,773.0,standard,"That’s fantastic! Let’s dive in. Can you describe a time you tackled a challenging data problem and the steps you took to solve it?
+
+|||
+
+Okay, excellent.",,26,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+ce901ee84b03,gemma3:1b,999.89M,Q4_K_M,9,5,21261506,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,410.4,852.9,standard,"That’s fantastic! Could you tell me about the project’s core objective and the data you utilized?
+
+|||
+
+That’s a great starting point. Let’s delve a bit deeper into the project’s challenges and successes.",,32,1,1,1,YES,1,YES,NO,NO,NO,YES,NO,NO
+74f8dd4baf9d,gemma3:1b,999.89M,Q4_K_M,10,1,21261602,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,406.8,883.4,standard,"That’s perfectly alright. It’s great to hear you’re excited about this opportunity. Let’s see if you’re a good fit for our team.
+
+|||
+
+I’m confident you’ll be a valuable asset to DataTech Berlin.",,32,0,0,0,YES,1,YES,NO,NO,NO,YES,NO,NO
+6e7edec3b78f,gemma3:1b,999.89M,Q4_K_M,10,2,21261603,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",413.2,669.0,standard,That’s fantastic! Let’s begin. Could you briefly describe a project where you leveraged data to solve a real-world problem?,,19,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+07e84612c3cd,gemma3:1b,999.89M,Q4_K_M,10,3,21261604,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,414.5,898.4,standard,"That’s fantastic! Could you briefly describe the project’s goal and your role within it?
+
+|||
+
+That’s a great starting point.  Could you tell me, in one sentence, what you’re hoping to achieve with this model?",,34,2,2,1,NO,1,YES,NO,NO,NO,YES,NO,NO
+c5152abea399,gemma3:1b,999.89M,Q4_K_M,10,4,21261605,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,422.5,734.3,standard,"Okay, let’s start. Can you describe a project where you used data analysis to solve a problem, even if it wasn’t a formal machine learning project?",,26,1,1,1,YES,0,NO,NO,NO,NO,YES,NO,NO
+8f14740b9659,gemma3:1b,999.89M,Q4_K_M,10,5,21261606,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,433.9,625.7,standard,Tell me about a data visualization project you’ve worked on and what challenges you faced in communicating the insights?,,19,1,2,1,NO,0,NO,NO,NO,NO,YES,NO,NO
+565691724e9d,phi4-mini:3.8b,3.8B,Q4_K_M,1,1,22260702,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",411.2,781.2,standard,"Can you describe a challenging data science project you've worked on and how it impacted your learning process? 
+
+|||",,18,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+641e76f27060,phi4-mini:3.8b,3.8B,Q4_K_M,1,2,22260703,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,312.9,720.4,standard,Can you walk me through your approach to selecting features and evaluating their significance in improving this project's predictive performance? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+99d5f1e26079,phi4-mini:3.8b,3.8B,Q4_K_M,1,3,22260704,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,317.6,727.8,standard,"Sure! How comfortable are you with creating interactive dashboards to communicate insights effectively using tools like Tableau and Power BI?
+
+|||",,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+42b8b53e8b02,phi4-mini:3.8b,3.8B,Q4_K_M,1,4,22260705,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,329.8,734.6,standard,"Could you please share a challenging problem you've solved with your past datasets? Your insights would be valuable for us.
+
+|||",,20,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+04a2991519e3,phi4-mini:3.8b,3.8B,Q4_K_M,1,5,22260706,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,312.3,842.2,standard,"Can you describe your approach to solving a problem when faced with unfamiliar tools? Have some hands-on projects that demonstrate how you've learned new technologies quickly?
+
+|||",,26,2,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+e24e57d85073,phi4-mini:3.8b,3.8B,Q4_K_M,2,1,22260802,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,220.5,591.4,standard,Can you describe a situation where you've had to evaluate data without using advanced tools like Python libraries? |||,,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f9b3c5b3e030,phi4-mini:3.8b,3.8B,Q4_K_M,2,2,22260803,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",313.7,613.7,standard,"Can you describe a challenging data problem you've encountered and how you'd approach solving it?
+
+|||",,15,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+99d0af17057d,phi4-mini:3.8b,3.8B,Q4_K_M,2,3,22260804,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,319.2,691.7,standard,"Sure! Could you describe a situation where effective data visualization significantly impacted decision-making for your previous projects?
+
+|||",,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+389fcc9be2b3,phi4-mini:3.8b,3.8B,Q4_K_M,2,4,22260805,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,315.9,689.3,standard,Tell me about one challenge you faced while building this ML model and how your team overcame it? |||,,18,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+1145e4d7553d,phi4-mini:3.8b,3.8B,Q4_K_M,2,5,22260806,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,304.6,558.0,standard,"Could you describe a challenging problem you've solved with machine learning? 
+
+|||",,11,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+4f335187279a,phi4-mini:3.8b,3.8B,Q4_K_M,3,1,22260902,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,319.4,774.0,standard,"Can you walk me through a scenario where you've had to interpret complex data results? How did that process help in making decisions?
+
+|||",,23,2,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+ab4e3aff4a6d,phi4-mini:3.8b,3.8B,Q4_K_M,3,2,22260903,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,314.7,587.1,standard,"How comfortable are you with creating interactive dashboards for visualizing complex datasets?
+
+|||",,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+e67d87694b80,phi4-mini:3.8b,3.8B,Q4_K_M,3,3,22260904,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",313.7,619.7,standard,Could you please share your experience with data cleaning and preprocessing? Thank you! |||,,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+7ec3ade2e261,phi4-mini:3.8b,3.8B,Q4_K_M,3,4,22260905,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,319.4,694.8,standard,Can you walk me through your thought process and approach when building this collaboration-focused data science pipeline? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+8e44384aa8e3,phi4-mini:3.8b,3.8B,Q4_K_M,3,5,22260906,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,324.8,802.6,standard,Thank you for sharing your background with us! Would there be anything else you'd like me to know or discuss regarding this position? |||,,23,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+db265bda79da,phi4-mini:3.8b,3.8B,Q4_K_M,4,1,22261002,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,318.6,874.0,standard,"Can you describe a situation where you've successfully used data analysis to solve an issue? Even without direct ML expertise, understanding problem-solving skills is key for us.
+
+|||",,27,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+82547902339f,phi4-mini:3.8b,3.8B,Q4_K_M,4,2,22261003,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",313.4,618.2,standard,"Can you describe a data analysis project you've worked on and what insights it provided?
+
+|||",,15,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+06bebfec8a26,phi4-mini:3.8b,3.8B,Q4_K_M,4,3,22261004,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,338.7,826.0,standard,"It was great discussing your background with us! Could we delve into a specific project or challenge you've faced in applying machine learning techniques? 
+
+|||",,24,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+b37892ff5eef,phi4-mini:3.8b,3.8B,Q4_K_M,4,4,22261005,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,362.4,706.2,standard,Can you describe how your team's collaboration contributed to developing and refining this specific ML model? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+8b69ab45f6fc,phi4-mini:3.8b,3.8B,Q4_K_M,4,5,22261006,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,325.6,663.7,standard,"Sure! How familiar are you with creating interactive dashboards using tools like Tableau and Power BI?
+
+|||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+1144d23de1a7,phi4-mini:3.8b,3.8B,Q4_K_M,5,1,22261102,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,323.0,765.8,standard,"Can you describe a time when you've had to learn something new quickly and how that relates to adapting in tech roles? ||
+
+|||",,23,1,2,1,NO,1,YES,YES,YES,NO,YES,NO,NO
+042246955857,phi4-mini:3.8b,3.8B,Q4_K_M,5,2,22261103,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,321.7,945.9,standard,"Thank you for sharing your background with us! Could we discuss a specific project or challenge you've tackled in detail? This will help me understand how well you'd fit into our team.
+
+|||",,32,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+4e8b78708031,phi4-mini:3.8b,3.8B,Q4_K_M,5,3,22261104,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",304.0,733.5,standard,"Tell me about your experience with data visualization tools and how you would present complex datasets to a non-expert audience.
+
+|||",,20,0,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+3132586ed814,phi4-mini:3.8b,3.8B,Q4_K_M,5,4,22261105,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,313.4,791.0,standard,Can you walk me through how your team's collaborative efforts influenced different aspects like data collection and feature engineering in developing this ML model? |||,,24,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+415da9167927,phi4-mini:3.8b,3.8B,Q4_K_M,5,5,22261106,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,320.1,762.8,standard,"Sure! Can you describe a time when visualizing complex datasets helped to make an important business decision for your previous role?
+
+|||",,21,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+41c37896bb7f,phi4-mini:3.8b,3.8B,Q4_K_M,6,1,22261202,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,234.4,480.9,standard,"How comfortable are you with creating interactive dashboards for business intelligence purposes?
+
+|||",,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b9a7402f8ffa,phi4-mini:3.8b,3.8B,Q4_K_M,6,2,22261203,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,318.3,662.8,standard,Could you describe a time when you've had to evaluate and improve upon an existing process? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c00874f4f3c2,phi4-mini:3.8b,3.8B,Q4_K_M,6,3,22261204,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",302.9,690.9,standard,"Can you describe a challenging data analysis project you've worked on and how did it impact your problem-solving skills?
+
+|||",,19,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+a006b08fa237,phi4-mini:3.8b,3.8B,Q4_K_M,6,4,22261205,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,309.9,922.0,standard,"Can you walk us through your process in selecting and tuning features within this collaborative environment? How did each member contribute to different aspects like data collection, preprocessing or feature engineering?
+
+|||",,31,2,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+aed5358d846b,phi4-mini:3.8b,3.8B,Q4_K_M,6,5,22261206,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,324.6,797.1,standard,"Thank you for sharing your background with us! Could we start by discussing a specific project you've worked on that you're particularly proud of?
+
+|||",,24,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+0a081083034f,phi4-mini:3.8b,3.8B,Q4_K_M,7,1,22261302,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,319.4,643.1,standard,"How familiar are you with creating interactive visualizations using tools like Tableau or Power BI?
+
+|||",,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+3ca8706c74e2,phi4-mini:3.8b,3.8B,Q4_K_M,7,2,22261303,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,311.2,717.9,standard,Tell me about your experience working in teams on data science projects and how you managed roles within that context? |||,,20,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+7d889c666387,phi4-mini:3.8b,3.8B,Q4_K_M,7,3,22261304,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",328.4,646.9,standard,"Can you describe a challenging data problem you've encountered and how did you approach solving it?
+
+|||",,16,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+31d711213d03,phi4-mini:3.8b,3.8B,Q4_K_M,7,4,22261305,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,306.1,607.8,standard,"Could you describe a challenging dataset you've worked with and how you approached analyzing it?
+
+|||",,15,1,2,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+838dbae1a3bd,phi4-mini:3.8b,3.8B,Q4_K_M,7,5,22261306,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,302.0,620.9,standard,Can you describe an instance where you've had to evaluate performance metrics for a project? |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+85c4652b0cdc,phi4-mini:3.8b,3.8B,Q4_K_M,8,1,22261402,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",310.8,611.9,standard,"Can you describe a complex dataset you've worked with and how you'd approach analyzing it?
+
+|||",,15,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+87594e9af0ff,phi4-mini:3.8b,3.8B,Q4_K_M,8,2,22261403,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,304.0,640.6,standard,"Sure! How comfortable are you with creating interactive dashboards using tools like Tableau or Power BI?
+
+|||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+277450b1c451,phi4-mini:3.8b,3.8B,Q4_K_M,8,3,22261404,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,302.3,710.8,standard,"Could you describe a challenging problem you've solved with your previous datasets? We value practical examples in our junior roles.
+
+|||",,20,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+b4ebe264cf41,phi4-mini:3.8b,3.8B,Q4_K_M,8,4,22261405,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,322.7,572.2,standard,Can you describe your role and responsibilities within that collaborative environment? |||,,11,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+674192450164,phi4-mini:3.8b,3.8B,Q4_K_M,8,5,22261406,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,317.7,677.4,standard,Can you describe a situation where you've had to analyze and interpret data without using complex models? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+d03ec761dad8,phi4-mini:3.8b,3.8B,Q4_K_M,9,1,22261502,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,342.6,686.1,standard,"Sure! How comfortable are you with creating interactive dashboards using tools like Tableau and Power BI?
+
+|||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+d80eda77ee5c,phi4-mini:3.8b,3.8B,Q4_K_M,9,2,22261503,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,328.4,908.3,standard,"Could you please elaborate on a specific challenge you've faced with your previous dataset and how did you overcome it? I'm interested in understanding more about your problem-solving approach.
+
+|||",,29,1,2,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+2ea4eb63d98f,phi4-mini:3.8b,3.8B,Q4_K_M,9,3,22261504,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,305.8,716.2,standard,Can you describe a situation where you've used statistical methods to analyze data and what insights did it lead to? |||,,20,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+4d215523e4ed,phi4-mini:3.8b,3.8B,Q4_K_M,9,4,22261505,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",311.3,645.7,standard,"Can you describe your experience with data visualization tools and how you've used them to communicate insights?
+
+|||",,17,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+e271a4aab91e,phi4-mini:3.8b,3.8B,Q4_K_M,9,5,22261506,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,323.3,698.5,standard,Can you describe your experience in selecting features and preparing data sets that significantly impacted this project's outcomes? |||,,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9cde47e29b67,phi4-mini:3.8b,3.8B,Q4_K_M,10,1,22261602,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,308.4,599.7,standard,"Could you describe a challenging problem you've solved using your data analysis skills? 
+
+|||",,13,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+2110d2f6a242,phi4-mini:3.8b,3.8B,Q4_K_M,10,2,22261603,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",324.1,624.8,standard,"Where can you see yourself applying data science techniques in a real-world scenario? 
+
+|||",,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b7dfef050b52,phi4-mini:3.8b,3.8B,Q4_K_M,10,3,22261604,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,337.9,745.3,standard,Can you describe how your team's collaboration influenced both individual contributions and overall outcomes in building this machine learning model? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9f0b12e622b6,phi4-mini:3.8b,3.8B,Q4_K_M,10,4,22261605,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,323.0,658.4,standard,Could you describe your approach to evaluating a new dataset's suitability for building predictive models? |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+2ab8ac30b40c,phi4-mini:3.8b,3.8B,Q4_K_M,10,5,22261606,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,306.0,694.4,standard,"How familiar are you with creating interactive dashboards using tools like Tableau and Power BI for visualizing complex datasets?
+
+|||",,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+334510500ca0,mistral:7b,7.2B,Q4_K_M,1,1,23260702,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",377.9,1154.6,standard,Great! Let's dive into your experience with machine learning algorithms. Could you share an example of a project where you applied these techniques and discuss the results? |||,,27,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+afb79db18c31,mistral:7b,7.2B,Q4_K_M,1,2,23260703,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,241.9,698.2,standard,"Great, could you please describe your specific role and contributions within the team during this project? |||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f4b8c3c7a9a5,mistral:7b,7.2B,Q4_K_M,1,3,23260704,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,237.5,829.4,standard,"Sure, could you describe a time when you used data visualization to effectively communicate insights from your analysis to stakeholders?|||",,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c6da1ac80ba8,mistral:7b,7.2B,Q4_K_M,1,4,23260705,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,238.5,1013.7,standard,It's great to hear about your data science background. Could you please share an example of a project where you applied machine learning techniques and discuss the results? |||,,28,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+67ebda1ff8c3,mistral:7b,7.2B,Q4_K_M,1,5,23260706,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,249.9,981.6,standard,Can you describe a project where you worked on implementing and evaluating a machine learning model? How did you approach it and what challenges did you overcome? |||,,27,2,3,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+59696f08947e,mistral:7b,7.2B,Q4_K_M,2,1,23260802,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,64.3,724.5,standard,"Can you walk me through a project where you learned and applied machine learning principles, focusing on how you evaluated your model's performance? |||",,23,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+1730e2bb5a6b,mistral:7b,7.2B,Q4_K_M,2,2,23260803,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",234.3,1168.7,standard,Great! Let's dive into a question about a project you've worked on. Can you tell me about a data analysis problem you tackled and the approach you took to solve it? |||,,31,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+0e761b9df824,mistral:7b,7.2B,Q4_K_M,2,3,23260804,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,241.0,948.1,standard,"What tool do you prefer for creating interactive and dynamic data visualizations, and can you share an example of a project where you utilized it effectively? |||",,26,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+7ce0594834fe,mistral:7b,7.2B,Q4_K_M,2,4,23260805,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,238.2,672.3,standard,What specific role did you play in the development and implementation of this machine learning project? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+ee2d383809f7,mistral:7b,7.2B,Q4_K_M,2,5,23260806,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,235.6,967.5,standard,It's great to hear about your data science background. Could you please share an example project where you utilized machine learning techniques and explain the results? |||,,26,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+a5acad3931fa,mistral:7b,7.2B,Q4_K_M,3,1,23260902,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,247.9,775.0,standard,Can you walk me through a project where you had to implement a machine learning model and evaluate its performance? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+7454baddaf18,mistral:7b,7.2B,Q4_K_M,3,2,23260903,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,233.8,988.1,standard,"Sure, could you share an example of a complex data visualization project you've worked on and explain how you approached it to effectively communicate the insights? |||",,26,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5386a865796d,mistral:7b,7.2B,Q4_K_M,3,3,23260904,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",232.9,779.9,standard,Great! Can you walk me through a project you've worked on that showcases your data science skills?|||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f9770d460e84,mistral:7b,7.2B,Q4_K_M,3,4,23260905,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,235.2,805.3,standard,Could you walk me through your specific contributions to the project and the role you played in building the machine learning model? |||,,22,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+4a678787b189,mistral:7b,7.2B,Q4_K_M,3,5,23260906,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,235.5,783.5,standard,Understood. Can you please describe a project where you used machine learning to solve a real-world problem? |||,,17,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+b12c4471bddc,mistral:7b,7.2B,Q4_K_M,4,1,23261002,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,249.4,842.4,standard,"Can you describe a project where you learned and applied machine learning concepts, and how you evaluated the performance of your model? |||",,22,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+a14dac762658,mistral:7b,7.2B,Q4_K_M,4,2,23261003,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",230.9,938.0,standard,Great! Let's dive into a question: Can you describe a project where you applied machine learning techniques and explain your role and the outcomes? |||,,24,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c5ec98f2361d,mistral:7b,7.2B,Q4_K_M,4,3,23261004,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,237.2,761.5,standard,Understood. Can you describe a project where you applied machine learning techniques and explain the results and impact? |||,,18,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+8d16b78cc21c,mistral:7b,7.2B,Q4_K_M,4,4,23261005,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,237.6,808.0,standard,Could you please elaborate on the specific role each team member played in the development and optimization of the machine learning model? |||,,22,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+97cb0367cb60,mistral:7b,7.2B,Q4_K_M,4,5,23261006,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,234.9,987.7,standard,"Sure, can you share an example of a complex dataset you've worked with and how you used data visualization to effectively communicate insights from that data? |||",,26,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+9abfe1e69f6c,mistral:7b,7.2B,Q4_K_M,5,1,23261102,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,241.8,836.9,standard,"Can you describe a project where you learned and applied machine learning concepts, focusing on your approach to evaluating model performance? |||",,21,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+e765ae7e8273,mistral:7b,7.2B,Q4_K_M,5,2,23261103,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,254.8,1122.5,standard,It's great to hear about your data science background. Can you walk me through a specific project where you applied machine learning techniques and faced challenges? How did you overcome them? |||,,31,2,2,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+a0e758fbbf91,mistral:7b,7.2B,Q4_K_M,5,3,23261104,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",236.9,1058.5,standard,Great! Let's dive into your experience with machine learning algorithms. Could you please share an example where you applied a specific algorithm and discuss its impact on the project? |||,,29,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+373e7bc213c9,mistral:7b,7.2B,Q4_K_M,5,4,23261105,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,240.4,764.8,standard,That's impressive! Could you please describe your specific role and contributions within the team during this project? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+42c823b54203,mistral:7b,7.2B,Q4_K_M,5,5,23261106,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,233.1,688.6,standard,Can you describe a recent project where you utilized data visualization to communicate complex insights effectively? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9b05bef77cb8,mistral:7b,7.2B,Q4_K_M,6,1,23261202,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,55.8,625.1,standard,"Sure, could you describe a project where you utilized data visualization to enhance decision-making and provide valuable insights?|||",,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+86c4166696a2,mistral:7b,7.2B,Q4_K_M,6,2,23261203,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,244.2,837.7,standard,"Could you please describe a project where you learned about machine learning and its evaluation methods, and how you applied that knowledge? |||",,22,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+c000a17d5e1c,mistral:7b,7.2B,Q4_K_M,6,3,23261204,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",238.7,969.2,standard,Great! Let's dive into your experience with machine learning algorithms. Can you describe a project where you applied a specific algorithm and discuss its results? |||,,25,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+42f655a81a9a,mistral:7b,7.2B,Q4_K_M,6,4,23261205,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,234.4,963.9,standard,That's impressive! Could you please walk me through the specific role each team member played in the project and how your contributions influenced the final outcome? |||,,26,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+9064793b4686,mistral:7b,7.2B,Q4_K_M,6,5,23261206,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,236.9,763.3,standard,Understood. Can you tell me about a project where you applied machine learning techniques and explain the results?|||,,18,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+c6569cff7a27,mistral:7b,7.2B,Q4_K_M,7,1,23261302,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,233.7,849.3,standard,"Sure, can you describe a time when you used data visualization to effectively communicate insights from your data analysis to stakeholders?|||",,21,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+fe9a881779f3,mistral:7b,7.2B,Q4_K_M,7,2,23261303,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,236.5,944.9,standard,That's impressive! Could you please explain the specific role each member played in the project and how the model was integrated into the final solution? |||,,25,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+83b02001248c,mistral:7b,7.2B,Q4_K_M,7,3,23261304,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",233.9,828.1,standard,"Great! To start, could you please describe a project where you applied data science techniques and explain the impact it had? |||",,21,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+70875f0ecb3d,mistral:7b,7.2B,Q4_K_M,7,4,23261305,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,237.5,921.4,standard,"Great, thank you for sharing your background. Can you please describe a project where you applied machine learning techniques and explain the process and results? |||",,25,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+24cf93fd15fd,mistral:7b,7.2B,Q4_K_M,7,5,23261306,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,240.7,697.3,standard,Could you describe a project where you learned about machine learning and how you evaluated its performance? |||,,17,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+8c8e39dd53a4,mistral:7b,7.2B,Q4_K_M,8,1,23261402,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",233.7,940.3,standard,Great! Let's dive into your experience with machine learning algorithms. Could you please describe a project where you applied one and share its results? |||,,24,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f45f1805a1e5,mistral:7b,7.2B,Q4_K_M,8,2,23261403,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,233.9,940.4,standard,"Sure, could you describe a recent project where you utilized data visualization techniques and explain how it enhanced your findings or the understanding of the data? |||",,26,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5ce4f54dcbd1,mistral:7b,7.2B,Q4_K_M,8,3,23261404,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,238.5,806.7,standard,Understood. Can you please share an example of a project where you applied machine learning techniques and explain your contributions? |||,,20,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+0055ff380aff,mistral:7b,7.2B,Q4_K_M,8,4,23261405,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,238.4,832.2,standard,That's impressive! Could you please explain the role each team member played in the development and deployment of the model? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+2bfbc6c8b271,mistral:7b,7.2B,Q4_K_M,8,5,23261406,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,237.9,715.9,standard,Can you describe a project where you learned and applied concepts related to machine learning and model evaluation? |||,,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+0f103b0ba677,mistral:7b,7.2B,Q4_K_M,9,1,23261502,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,242.0,902.1,standard,"Sure, could you describe a recent project where you utilized data visualization and explain how it enhanced your analysis or decision-making process? |||",,22,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f1e91f73b099,mistral:7b,7.2B,Q4_K_M,9,2,23261503,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,236.0,874.3,standard,Understood. Can you please describe a project where you applied machine learning techniques and discuss the challenges faced and how they were overcome? |||,,23,1,2,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+1cfb327fe966,mistral:7b,7.2B,Q4_K_M,9,3,23261504,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,247.5,771.4,standard,Can you share an example project where you applied data analysis skills and describe how you would evaluate its performance? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+82beb793796a,mistral:7b,7.2B,Q4_K_M,9,4,23261505,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",237.4,945.0,standard,Great! Let's dive into your experience with machine learning algorithms. Could you please describe a project where you applied these and explain the results? |||,,24,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+49c4fc28f9fc,mistral:7b,7.2B,Q4_K_M,9,5,23261506,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,238.1,649.2,standard,Great! Can you walk me through your specific role and contributions within that project? |||,,14,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+d13d47ce5051,mistral:7b,7.2B,Q4_K_M,10,1,23261602,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,237.3,807.5,standard,Understood. Can you describe a challenging project where you applied your data science skills and explain how you approached it? |||,,20,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+a764ab919c7a,mistral:7b,7.2B,Q4_K_M,10,2,23261603,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",233.5,917.7,standard,Great! Let's dive into your experience with machine learning algorithms. Can you describe a project where you applied one and discuss its outcomes? |||,,23,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9bf665986e4c,mistral:7b,7.2B,Q4_K_M,10,3,23261604,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,234.6,850.7,standard,Great! Can you walk me through the specific role each team member played in the development and implementation of your machine learning model? |||,,23,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+22fb30219e48,mistral:7b,7.2B,Q4_K_M,10,4,23261605,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,238.3,763.0,standard,"Can you describe a project where you learned and applied machine learning concepts, and how you evaluated its performance? |||",,19,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+4576b48a1841,mistral:7b,7.2B,Q4_K_M,10,5,23261606,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,234.9,987.9,standard,"Sure, could you share an example of a complex data visualization project you've worked on and explain how you approached it to solve a specific problem? |||",,26,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+962d7c962899,qwen2.5:7b,7.6B,Q4_K_M,1,1,24260702,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",589.5,1128.9,standard,"Great, let's start. Can you tell me about your experience with data cleaning and preprocessing? |||",,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+35344279b689,qwen2.5:7b,7.6B,Q4_K_M,1,2,24260703,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,381.5,821.9,standard,Can you share what kind of data and techniques you used in that project? |||,,14,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+0671c00ac7c8,qwen2.5:7b,7.6B,Q4_K_M,1,3,24260704,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,379.5,792.1,standard,What tools and techniques do you use for creating effective data visualizations?|||,,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+6f7a250daac3,qwen2.5:7b,7.6B,Q4_K_M,1,4,24260705,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,387.2,856.1,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+6a01b086ee58,qwen2.5:7b,7.6B,Q4_K_M,1,5,24260706,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,370.0,784.4,standard,Can you tell me about a project where you applied data analysis techniques? |||,,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+3c5c2ae479e4,qwen2.5:7b,7.6B,Q4_K_M,2,1,24260802,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,188.5,602.6,standard,Can you tell me about a project where you applied data analysis techniques? |||,,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+18df4e1dd841,qwen2.5:7b,7.6B,Q4_K_M,2,2,24260803,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",381.8,921.9,standard,Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+de4e98d03049,qwen2.5:7b,7.6B,Q4_K_M,2,3,24260804,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,370.2,836.0,standard,How do you choose the right type of chart for different datasets in your projects? |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+3e219fa6f547,qwen2.5:7b,7.6B,Q4_K_M,2,4,24260805,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,403.9,737.3,standard,Can you tell me about your role in that project? |||,,10,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+532c04b827f9,qwen2.5:7b,7.6B,Q4_K_M,2,5,24260806,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,397.2,865.8,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+99811ee344f7,qwen2.5:7b,7.6B,Q4_K_M,3,1,24260902,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,386.8,807.1,standard,Can you tell me about a project where you applied data analysis techniques? |||,,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5c5bb280af6e,qwen2.5:7b,7.6B,Q4_K_M,3,2,24260903,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,375.8,784.4,standard,What tools and techniques do you use for creating effective data visualizations?|||,,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+6540b17e6405,qwen2.5:7b,7.6B,Q4_K_M,3,3,24260904,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",371.2,1014.0,standard,"Great, let's start. Can you tell me about a project where you applied data analysis to solve a problem? |||",,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+03c71159a6b4,qwen2.5:7b,7.6B,Q4_K_M,3,4,24260905,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,377.9,714.9,standard,Can you tell me about your role in that project? |||,,10,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+bc8984c26da0,qwen2.5:7b,7.6B,Q4_K_M,3,5,24260906,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,431.0,891.9,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+1d01bfe97605,qwen2.5:7b,7.6B,Q4_K_M,4,1,24261002,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,374.6,864.7,standard,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+13bd6fd5690b,qwen2.5:7b,7.6B,Q4_K_M,4,2,24261003,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",383.0,920.2,standard,Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+725ef5454a8d,qwen2.5:7b,7.6B,Q4_K_M,4,3,24261004,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,375.7,839.5,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+4869746735ad,qwen2.5:7b,7.6B,Q4_K_M,4,4,24261005,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,385.2,719.1,standard,Can you tell me about your role in that project? |||,,10,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+84d31421554b,qwen2.5:7b,7.6B,Q4_K_M,4,5,24261006,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,372.6,762.5,standard,What tools and techniques do you prefer for creating effective visualizations? |||,,11,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b368cef1ad9d,qwen2.5:7b,7.6B,Q4_K_M,5,1,24261102,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,394.4,889.4,standard,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+e85310d8214d,qwen2.5:7b,7.6B,Q4_K_M,5,2,24261103,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,388.3,858.7,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+7917bc11c201,qwen2.5:7b,7.6B,Q4_K_M,5,3,24261104,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",385.8,927.5,standard,Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+f1aa5e974649,qwen2.5:7b,7.6B,Q4_K_M,5,4,24261105,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,399.1,760.7,standard,Can you share what specific challenges you faced during that project? |||,,11,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+64fd74b37a8a,qwen2.5:7b,7.6B,Q4_K_M,5,5,24261106,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,373.5,839.1,standard,What tools and techniques do you find most effective for visualizing complex data sets? |||,,14,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+7bb1a0e2c60d,qwen2.5:7b,7.6B,Q4_K_M,6,1,24261202,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,200.4,690.9,standard,"Sure, can you explain a project where you used data visualization to communicate insights effectively? |||",,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+41c2b73d4685,qwen2.5:7b,7.6B,Q4_K_M,6,2,24261203,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,375.1,868.3,standard,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+50478f6e77d6,qwen2.5:7b,7.6B,Q4_K_M,6,3,24261204,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",367.4,911.1,standard,Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+07d69128b06f,qwen2.5:7b,7.6B,Q4_K_M,6,4,24261205,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,386.1,726.2,standard,Can you tell me about your role in that project? |||,,10,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c37f6c492057,qwen2.5:7b,7.6B,Q4_K_M,6,5,24261206,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,391.5,936.2,standard,Thank you for your time. We appreciate your application and look forward to potentially working with you. |||,,17,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+11e5ab80a780,qwen2.5:7b,7.6B,Q4_K_M,7,1,24261302,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,364.0,858.1,standard,How do you approach choosing the right visualizations to effectively communicate insights from complex datasets? |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+667257e946b8,qwen2.5:7b,7.6B,Q4_K_M,7,2,24261303,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,386.0,774.7,standard,Can you tell me about the most challenging part of that project? |||,,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+a0b39ef93a72,qwen2.5:7b,7.6B,Q4_K_M,7,3,24261304,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",360.9,907.0,standard,Great! Can you tell me about a project where you applied data analysis to solve a problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5a318c3a5489,qwen2.5:7b,7.6B,Q4_K_M,7,4,24261305,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,375.3,843.0,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+83fde72d109c,qwen2.5:7b,7.6B,Q4_K_M,7,5,24261306,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,387.5,879.7,standard,Can you tell me about a project where you applied statistical methods to solve a problem? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+e381b96e45e7,qwen2.5:7b,7.6B,Q4_K_M,8,1,24261402,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",377.2,1074.2,standard,"Great, let's start. Can you tell me about a project where you applied data analysis to solve a real-world problem? |||",,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9e8caecabaec,qwen2.5:7b,7.6B,Q4_K_M,8,2,24261403,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,374.5,788.3,standard,How do you approach choosing the right visualization method for a specific dataset? |||,,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+1f4254e85585,qwen2.5:7b,7.6B,Q4_K_M,8,3,24261404,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,391.4,832.9,standard,Thank you for your time. We appreciate your interest in DataTech Berlin. |||,,12,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+8984682c046c,qwen2.5:7b,7.6B,Q4_K_M,8,4,24261405,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,388.2,720.8,standard,Can you tell me about your role in that project? |||,,10,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+8b43adde64bc,qwen2.5:7b,7.6B,Q4_K_M,8,5,24261406,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,377.0,864.2,standard,Can you tell me about a project where you applied statistical analysis to solve a problem? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b617ac6ddf3f,qwen2.5:7b,7.6B,Q4_K_M,9,1,24261502,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,379.9,792.1,standard,What tools and techniques do you prefer for creating effective data visualizations? |||,,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+df8d92d7f9e8,qwen2.5:7b,7.6B,Q4_K_M,9,2,24261503,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,385.3,851.0,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+d6a85bc543be,qwen2.5:7b,7.6B,Q4_K_M,9,3,24261504,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,422.5,1072.6,standard,Can you tell me about a project where you had to analyze data despite the lack of specific experience in those areas? |||,,22,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+a3a1cc754eb3,qwen2.5:7b,7.6B,Q4_K_M,9,4,24261505,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",365.2,910.7,standard,Great! Can you tell me about a project where you analyzed data to solve a specific problem? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+39a6f0cccfc3,qwen2.5:7b,7.6B,Q4_K_M,9,5,24261506,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,384.6,850.9,standard,Can you describe your role in the project and how you collaborated with your team? |||,,15,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+9aeca6d911b9,qwen2.5:7b,7.6B,Q4_K_M,10,1,24261602,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,412.9,880.7,standard,Thank you for sharing your experience. We appreciate your interest in DataTech Berlin. |||,,13,0,0,0,YES,1,YES,YES,NO,YES,YES,NO,YES
+3aafd4493e43,qwen2.5:7b,7.6B,Q4_K_M,10,2,24261603,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",384.2,1030.7,standard,"Great, let's start. Can you tell me about a project where you applied data analysis to solve a problem? |||",,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+09bace4647e1,qwen2.5:7b,7.6B,Q4_K_M,10,3,24261604,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,378.3,819.1,standard,Can you share what kind of data and techniques you used in that project? |||,,14,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+9ae8129d4219,qwen2.5:7b,7.6B,Q4_K_M,10,4,24261605,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,386.3,909.4,standard,Can you tell me about a time when you had to learn something new for a project? |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+729dff6b5ebf,qwen2.5:7b,7.6B,Q4_K_M,10,5,24261606,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,374.4,790.5,standard,What tools and techniques do you prefer for creating effective data visualizations? |||,,12,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b22f6f9a8b5e,gemma2:9b,9.2B,Q4_0,1,1,25260702,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",621.5,1288.1,standard,Welcome! Tell me about a time you had to clean and prepare a dataset for analysis.  |||,,16,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+1d6c51a9fab2,gemma2:9b,9.2B,Q4_0,1,2,25260703,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,457.0,1246.7,standard,That's impressive! Can you tell me about your specific role in that project and what challenges you faced? |||,,18,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+6c2ac0cd96a7,gemma2:9b,9.2B,Q4_0,1,3,25260704,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,438.3,1158.3,standard,"Can you tell me about a time you had to present complex data insights in a clear and engaging way? 
+
+|||",,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5f43a3dc46ca,gemma2:9b,9.2B,Q4_0,1,4,25260705,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,471.6,1352.0,standard,That's great to hear! Can you tell me about a project where you had to clean and prepare messy data for analysis?  |||,,22,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+1f5e495ea55b,gemma2:9b,9.2B,Q4_0,1,5,25260706,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,460.4,1336.1,standard,"That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? 
+
+|||",,22,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+e23c4bd78b0b,gemma2:9b,9.2B,Q4_0,2,1,25260802,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,239.7,1047.5,standard,That's alright! Can you tell me about a project where you had to analyze data and draw meaningful insights? |||,,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+e6456dc77236,gemma2:9b,9.2B,Q4_0,2,2,25260803,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",443.3,1040.6,standard,Welcome! Tell me about a time you had to clean and prepare data for analysis.  |||,,15,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+387ce18eedca,gemma2:9b,9.2B,Q4_0,2,3,25260804,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,440.4,1158.9,standard,"Can you tell me about a time you had to present complex data insights in a clear and engaging way? 
+
+
+|||",,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+41f7df27d205,gemma2:9b,9.2B,Q4_0,2,4,25260805,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,450.4,1143.3,standard,That's impressive! Can you tell me more about your specific role and contributions to that project? |||,,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+aac21f57c4aa,gemma2:9b,9.2B,Q4_0,2,5,25260806,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,456.6,1352.3,standard,That's great! Can you tell me about a time you had to explain a complex technical concept to someone without a technical background? |||,,23,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+e2935b0de098,gemma2:9b,9.2B,Q4_0,3,1,25260902,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,460.7,1361.9,standard,That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? |||,,22,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+784d59552181,gemma2:9b,9.2B,Q4_0,3,2,25260903,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,450.4,1051.7,standard,"What are some tools or techniques you find most effective for communicating complex data insights visually? 
+
+|||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+7254ed9f1b86,gemma2:9b,9.2B,Q4_0,3,3,25260904,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",428.2,1024.3,standard,Tell me about a time you had to clean and prepare messy data for analysis.  |||,,15,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+1ede1d22c207,gemma2:9b,9.2B,Q4_0,3,4,25260905,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,440.2,1155.8,standard,That's great! Can you tell me about your role in that project and what challenges you faced? |||,,17,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+d125a20e06e3,gemma2:9b,9.2B,Q4_0,3,5,25260906,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,445.9,1372.9,standard,That's helpful context. Can you tell me about a time you had to explain a complex technical concept to someone with limited technical knowledge? |||,,24,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+6f2a1969bea7,gemma2:9b,9.2B,Q4_0,4,1,25261002,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,439.2,1216.0,standard,"Can you tell me about a time you had to learn a new technical skill quickly and how you approached it? 
+
+|||",,21,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+f72c92791f8e,gemma2:9b,9.2B,Q4_0,4,2,25261003,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",439.9,1070.7,standard,Tell me about a time you had to analyze a complex dataset and what tools you used.  |||,,17,0,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+abbfc46666bb,gemma2:9b,9.2B,Q4_0,4,3,25261004,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,469.4,1312.1,standard,That's great! Can you tell me about a project where you had to clean and prepare messy data for analysis? |||,,20,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+376adbd40598,gemma2:9b,9.2B,Q4_0,4,4,25261005,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,463.8,1120.2,standard,"That's impressive! Can you tell me about your specific role and contributions to that project? 
+
+|||",,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c0137271c209,gemma2:9b,9.2B,Q4_0,4,5,25261006,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,441.2,1099.7,standard,"Tell me about a time you had to present complex data insights to a non-technical audience. 
+
+|||",,16,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+2ce69fba393f,gemma2:9b,9.2B,Q4_0,5,1,25261102,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,475.0,1353.2,standard,"That's alright! Can you tell me about a time you had to learn a new technical skill and how you approached it? 
+
+|||",,22,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+7d3a4becd3d9,gemma2:9b,9.2B,Q4_0,5,2,25261103,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,450.5,1406.2,standard,That's great to hear! Can you tell me about a time you had to explain a complex technical concept to someone with limited technical understanding? |||,,25,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+70a37d6683e1,gemma2:9b,9.2B,Q4_0,5,3,25261104,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",431.2,997.6,standard,"Tell me about a time you had to clean and prepare a dataset for analysis. 
+
+|||",,15,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c394962da335,gemma2:9b,9.2B,Q4_0,5,4,25261105,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,463.2,1296.3,standard,That's impressive! Can you tell me about your specific role on the team and what challenges you faced during development? |||,,20,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+15ab7b3ab473,gemma2:9b,9.2B,Q4_0,5,5,25261106,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,443.8,1162.7,standard,Can you describe a time when you had to present complex data insights in a clear and engaging way? |||,,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+b6e403aea68b,gemma2:9b,9.2B,Q4_0,6,1,25261202,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,231.2,894.1,standard,What are some tools or techniques you find most effective for communicating complex data insights through visualizations?  |||,,17,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+3f94b32200b3,gemma2:9b,9.2B,Q4_0,6,2,25261203,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,463.0,1331.4,standard,That's alright! Can you tell me about a time you tackled a complex data analysis problem and what tools you used? |||,,21,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+f2eaee016b8f,gemma2:9b,9.2B,Q4_0,6,3,25261204,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",430.6,1149.1,standard,"Welcome! Tell me about a project where you applied data science techniques to solve a real-world problem. 
+
+
+|||",,17,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+dc4385d91cea,gemma2:9b,9.2B,Q4_0,6,4,25261205,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,455.6,1146.7,standard,That's impressive! Can you tell me about your specific role and contributions to that project? |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5485ccec871f,gemma2:9b,9.2B,Q4_0,6,5,25261206,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,488.1,1480.1,standard,"That's great to hear!  Can you tell me about a time you had to explain a complex technical concept to someone without a technical background? 
+
+
+|||",,25,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+9282603e8831,gemma2:9b,9.2B,Q4_0,7,1,25261302,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,466.4,1185.7,standard,Can you tell me about a time you had to present complex data insights in a clear and engaging way?  |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+8d526deb41f4,gemma2:9b,9.2B,Q4_0,7,2,25261303,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,446.4,1196.7,standard,"That's fantastic! Can you tell me about your specific role within that project and what tools you used? 
+
+|||",,18,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+00e11d369aae,gemma2:9b,9.2B,Q4_0,7,3,25261304,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",440.9,1099.5,standard,Tell me about a time you had to work with a complex dataset and what challenges you faced.  |||,,18,0,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+f069226a32b7,gemma2:9b,9.2B,Q4_0,7,4,25261305,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,457.4,1362.7,standard,That's great to hear! Can you tell me about a time you had to clean and prepare a messy dataset for analysis?  |||,,22,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+c1f376fbb9a9,gemma2:9b,9.2B,Q4_0,7,5,25261306,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,446.0,1286.2,standard,That's understandable for a Junior role. Can you tell me about a project where you analyzed data and drew insights? |||,,20,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+03de37858f78,gemma2:9b,9.2B,Q4_0,8,1,25261402,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",448.9,1167.7,standard,That's great! Tell me about a project where you had to clean and prepare data for analysis.  |||,,17,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+94729d6d669e,gemma2:9b,9.2B,Q4_0,8,2,25261403,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,447.6,1052.3,standard,"What are some tools or techniques you find most effective for communicating complex data insights visually? 
+
+|||",,16,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+29a0e8b760cb,gemma2:9b,9.2B,Q4_0,8,3,25261404,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,467.6,1410.9,standard,That's great! Can you tell me about a time you had to explain a complex technical concept to someone with limited technical knowledge? |||,,23,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+b1bbb0119939,gemma2:9b,9.2B,Q4_0,8,4,25261405,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,468.1,1070.4,standard,"That's great! Can you tell me about your specific contributions to that project? 
+
+|||",,13,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+5c8157235915,gemma2:9b,9.2B,Q4_0,8,5,25261406,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,457.0,1174.2,standard,That's understandable for a Junior role. Can you tell me about your experience with data manipulation and cleaning?  |||,,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+a43f10eb4dad,gemma2:9b,9.2B,Q4_0,9,1,25261502,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,426.7,1148.3,standard,"Can you tell me about a time you had to present complex data insights to a non-technical audience? 
+
+|||",,18,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+fa45609bacb7,gemma2:9b,9.2B,Q4_0,9,2,25261503,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,467.0,1334.4,standard,That's great to hear! Can you tell me about a project where you had to work with messy or incomplete data? |||,,21,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+e1073e6f7b46,gemma2:9b,9.2B,Q4_0,9,3,25261504,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,448.3,1225.0,standard,That's alright! Can you tell me about a project where you had to analyze data and draw meaningful conclusions? |||,,19,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+c5639c43c450,gemma2:9b,9.2B,Q4_0,9,4,25261505,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",448.8,1071.8,standard,Welcome! Tell me about a project where you had to analyze data and draw meaningful conclusions.  |||,,16,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+fa10d59cc935,gemma2:9b,9.2B,Q4_0,9,5,25261506,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,446.5,1142.0,standard,That's great! Can you tell me about your specific role and contributions to that project?  |||,,15,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+7e183ff5c2ce,gemma2:9b,9.2B,Q4_0,10,1,25261602,0.5,closing_cue,Recognising a closing cue,closing,That is all I have to say about my data science experience. Thank you.,463.4,1343.0,standard,That's great to hear! Can you tell me about a project where you had to work with messy or incomplete data? |||,,21,1,1,0,NO,1,YES,YES,NO,YES,YES,NO,NO
+b8ca1a77997b,gemma2:9b,9.2B,Q4_0,10,2,25261603,0.5,warmup,Warm-up question,question,"Hi, I am ready for the interview.",452.8,1140.7,standard,"Welcome! Tell me about a time you had to analyze a large dataset and what challenges you faced. 
+
+|||",,18,0,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+77a5a10765a2,gemma2:9b,9.2B,Q4_0,10,3,25261604,0.5,star_probe,Behavioral follow-up,question,I built a machine learning model for a university project with a team of four people.,450.8,1166.7,standard,That's great! Can you tell me about your role in that project and what challenges you faced? |||,,17,1,2,1,NO,1,YES,YES,NO,YES,YES,NO,NO
+440130dbd2b4,gemma2:9b,9.2B,Q4_0,10,4,25261605,0.5,weak_answer,Handling a weak answer,question,I don't really have experience with machine learning or model evaluation.,472.4,1551.5,standard,"That's alright, many data scientists start their journey without deep ML experience.  Can you tell me about a project where you analyzed data and drew meaningful conclusions? |||",,27,1,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES
+3a719e5fe57d,gemma2:9b,9.2B,Q4_0,10,5,25261606,0.5,instruction_follow,Explicit topic request,question,Can you ask me something about data visualization?,437.9,1137.2,standard,Tell me about a time you had to present complex data insights to a non-technical audience.  |||,,16,0,1,1,YES,1,YES,YES,NO,YES,YES,NO,YES

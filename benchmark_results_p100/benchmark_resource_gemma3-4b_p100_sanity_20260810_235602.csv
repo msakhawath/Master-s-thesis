@@ -1,0 +1,2 @@
+model,resource_repeat,prompt_eval_tokens,generated_tokens,prompt_tokens_per_s,generation_tokens_per_s,load_ms,total_ms,response,error
+gemma3:4b,1,22,22,172.924,61.496,537.4,1048.6,"Precision measures the accuracy of positive predictions, while recall measures the ability to find all the actual positive instances.",

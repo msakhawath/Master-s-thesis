@@ -1,0 +1,2 @@
+model,cold_repeat,error,wall_total_ms,ollama_total_ms,ollama_load_ms,prompt_eval_ms,generation_ms,prompt_eval_tokens,generated_tokens,response
+qwen2.5:7b,1,,2771.0,2766.6,2513.7,211.9,23.4,34,2,OK

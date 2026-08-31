@@ -1,0 +1,25 @@
+model,resource_repeat,prompt_eval_tokens,generated_tokens,prompt_tokens_per_s,generation_tokens_per_s,load_ms,total_ms,response,error
+gemma3:1b,1,22,26,530.203,134.722,530.0,796.6,"Precision measures how accurate your model is at identifying true positives, while recall measures how well your model finds all the actual positives.",
+gemma3:1b,2,22,25,2474.079,137.474,495.7,716.6,"Precision measures how accurate your model is at identifying true positives, while recall measures how well your model finds all actual positives.",
+gemma3:1b,3,22,25,2473.992,134.932,558.8,789.0,"Precision measures how accurate your model is at identifying true positives, while recall measures how well your model finds all actual positives.",
+phi4-mini:3.8b,1,16,33,157.595,74.777,276.1,950.3,"Precision measures how many of your positive predictions were actually correct (true positives), while Recall assesses what percentage you correctly identified out of all actual positives in a dataset.",
+phi4-mini:3.8b,2,16,33,1154.941,75.13,267.3,850.6,"Precision measures how many of your positive predictions were actually correct (true positives), while Recall assesses what percentage you correctly identified out of all actual positives in a dataset.",
+phi4-mini:3.8b,3,16,33,1152.397,75.067,265.2,846.1,"Precision measures how many of your positive predictions were actually correct (true positives), while Recall assesses what percentage you correctly identified out of all actual positives in a dataset.",
+mistral:7b,1,18,34,86.554,46.535,31.9,997.0,"Precision measures the proportion of true positive predictions among all positive predictions, while recall measures the proportion of true positive predictions among all actual positives in the data set.",
+mistral:7b,2,18,34,815.177,46.644,32.4,807.2,"Precision measures the proportion of true positive predictions among all positive predictions, while recall measures the proportion of true positive predictions among all actual positives in the data set.",
+mistral:7b,3,18,34,813.953,46.658,32.6,807.8,"Precision measures the proportion of true positive predictions among all positive predictions, while recall measures the proportion of true positive predictions among all actual positives in the data set.",
+qwen2.5:7b,1,42,22,194.767,46.124,241.7,1006.2,"Precision measures the accuracy of positive predictions, while recall measures the fraction of actual positives that were correctly identified.",
+qwen2.5:7b,2,42,22,1835.836,46.321,210.3,775.1,"Precision measures the accuracy of positive predictions, while recall measures the fraction of actual positives that were correctly identified.",
+qwen2.5:7b,3,42,22,1844.5,46.32,201.1,768.2,"Precision measures the accuracy of positive predictions, while recall measures the fraction of actual positives that were correctly identified.",
+gemma2:9b,1,22,41,89.277,41.352,250.4,1694.5,"Precision measures how many of the identified items are actually correct, while recall measures how many of the actual items were identified correctly. 
+
+
+Let me know if you'd like a more detailed explanation!",
+gemma2:9b,2,22,41,886.53,41.487,260.2,1465.1,"Precision measures how many of the identified items are actually correct, while recall measures how many of the actual items were identified correctly. 
+
+
+Let me know if you'd like a more detailed explanation!",
+gemma2:9b,3,22,41,870.009,41.363,258.3,1480.2,"Precision measures how many of the identified items are actually correct, while recall measures how many of the actual items were identified correctly. 
+
+
+Let me know if you'd like a more detailed explanation!",

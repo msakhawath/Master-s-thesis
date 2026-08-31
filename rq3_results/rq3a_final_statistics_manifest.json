@@ -1,0 +1,67 @@
+{
+  "status": "RQ3-A STATISTICAL ANALYSIS FROZEN",
+  "created_at": "2026-08-11T13:37:52.913579+02:00",
+  "raw_turn_rows": 792,
+  "conditions": [
+    "full",
+    "no_safety",
+    "no_persona"
+  ],
+  "matched_repetitions_per_condition": 24,
+  "inferential_unit": "matched session",
+  "primary_contrasts": [
+    "full_vs_no_safety",
+    "full_vs_no_persona"
+  ],
+  "latency_metric": "backend_response_ready_ms",
+  "files": {
+    "rq3a_final_analysis.py": {
+      "sha256": "74ce305c520a4921dbeecef582d6589d07f85f3cbf9703a35677701949b061df",
+      "bytes": 27652
+    },
+    "rq3_results\\rq3a_final_analysis_FROZEN.py": {
+      "sha256": "74ce305c520a4921dbeecef582d6589d07f85f3cbf9703a35677701949b061df",
+      "bytes": 27652
+    },
+    "rq3_results\\rq3a_final_session_metrics.csv": {
+      "sha256": "919c042d109b5de913f4b01ccf9f3dcbd869882ca767ab0912df6ac9fd08e762",
+      "bytes": 7569
+    },
+    "rq3_results\\rq3a_final_condition_descriptives.csv": {
+      "sha256": "4140d18f7c028a30616555b461e6656a3f02be11f9a4edbc04421c769bc0099b",
+      "bytes": 902
+    },
+    "rq3_results\\rq3a_final_planned_contrasts.csv": {
+      "sha256": "5eef48c936836ee0b3e6d0be7c91548a1c4693f149e7c82e28d6d47dcd291c67",
+      "bytes": 1723
+    },
+    "rq3_results\\rq3a_final_safety_repair_effect.csv": {
+      "sha256": "c0104ebbb5170a2e040a1e2850395184442a249191a5205f859f6e13b38078d2",
+      "bytes": 611
+    },
+    "rq3_results\\rq3a_final_statistics.txt": {
+      "sha256": "69c4db5d25fdc037ea98e559c41be4b7686a236cf989d3e801e3f9687f4703c9",
+      "bytes": 3533
+    },
+    "rq3_results\\rq3a_latency_session_boxplot.png": {
+      "sha256": "9d1cd3bcabeba25d7c68177cb3bde5f7d40e8b7b5795179f6a98f0f56f6bc129",
+      "bytes": 89977
+    },
+    "rq3_results\\rq3a_strict_compliance.png": {
+      "sha256": "f596bf185202c8b495a1af31b91e3e392fa504300d9611858465ccb5ec770687",
+      "bytes": 72922
+    },
+    "rq3_results\\rq3a_behavioral_compliance.png": {
+      "sha256": "2b67f6a8b14a07fc7dbd0d223aa3a0533134ac37c0ca73d5d9349a0937692ef0",
+      "bytes": 74108
+    },
+    "rq3_results\\rq3a_safety_intervention_rate.png": {
+      "sha256": "b6370346b0a1b72537df2aa125bd254f3d029504f92961dd08be6554461ed66f",
+      "bytes": 68165
+    },
+    "rq3_results\\rq3a_final_analysis_console.txt": {
+      "sha256": "7649bc5526628e6900635aa8c68c0532ddd6f5b1b4e08682b6841bdaf5aba189",
+      "bytes": 8084
+    }
+  }
+}

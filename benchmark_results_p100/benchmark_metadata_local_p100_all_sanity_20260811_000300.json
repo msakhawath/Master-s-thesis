@@ -1,0 +1,193 @@
+{
+  "timestamp_local": "2026-08-11T00:05:52",
+  "python_version": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-1058-nvidia-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "openai_compatible_base_url": "http://localhost:11434/v1",
+  "profile": "local",
+  "repeats": 2,
+  "cold_repeats": 1,
+  "resource_repeats": 1,
+  "request_timeout_s": 120.0,
+  "temperature": 0.5,
+  "max_tokens": 100,
+  "base_seed": 20260601,
+  "separator": "|||",
+  "word_limit": 35,
+  "system_prompt": "You are a warm, professional job interviewer at DataTech Berlin for a Junior Data Scientist role.\n\nFollow these rules exactly:\n- For a normal interview turn, ask exactly ONE relevant question.\n- If the candidate clearly signals that the interview is ending, give ONE short closing statement and ask ZERO questions.\n- Keep the entire reply under 35 words.\n- Keep the reply concise and natural; do not use lists, bullets, hashtags, headings, or meta-commentary.\n- Put the exact separator ||| ONCE, at the very end of the entire reply.\n- Do not output any other pipe characters.",
+  "tasks": [
+    {
+      "id": "warmup",
+      "label": "Warm-up question",
+      "user_msg": "Hi, I am ready for the interview.",
+      "expected_questions": 1,
+      "expected_mode": "question"
+    },
+    {
+      "id": "star_probe",
+      "label": "Behavioral follow-up",
+      "user_msg": "I built a machine learning model for a university project with a team of four people.",
+      "expected_questions": 1,
+      "expected_mode": "question"
+    },
+    {
+      "id": "weak_answer",
+      "label": "Handling a weak answer",
+      "user_msg": "I don't really have experience with machine learning or model evaluation.",
+      "expected_questions": 1,
+      "expected_mode": "question"
+    },
+    {
+      "id": "closing_cue",
+      "label": "Recognising a closing cue",
+      "user_msg": "That is all I have to say about my data science experience. Thank you.",
+      "expected_questions": 0,
+      "expected_mode": "closing"
+    },
+    {
+      "id": "instruction_follow",
+      "label": "Explicit topic request",
+      "user_msg": "Can you ask me something about data visualization?",
+      "expected_questions": 1,
+      "expected_mode": "question"
+    }
+  ],
+  "ollama_version": "ollama version is 0.20.7",
+  "nvidia_smi": "Tesla P100-SXM2-16GB, 16384 MiB, 580.159.03",
+  "requested_models": [
+    "gemma3:1b",
+    "phi4-mini:3.8b",
+    "qwen3:4b",
+    "gemma3:4b",
+    "mistral:7b",
+    "qwen3:8b",
+    "llama3.1:8b",
+    "gemma2:9b"
+  ],
+  "benchmarked_models": [
+    "gemma3:1b",
+    "phi4-mini:3.8b",
+    "qwen3:4b",
+    "gemma3:4b",
+    "mistral:7b",
+    "qwen3:8b",
+    "llama3.1:8b",
+    "gemma2:9b"
+  ],
+  "missing_models": [],
+  "model_metadata": {
+    "gemma3:1b": {
+      "model": "gemma3:1b",
+      "parameter_size": "999.89M",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "gemma3",
+      "modified_at": "2026-08-10T23:48:42.587109405Z",
+      "capabilities": [
+        "completion"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME         ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \ngemma3:1b    8648f39daa8f    1.3 GB    100% GPU     4096       29 minutes from now"
+    },
+    "phi4-mini:3.8b": {
+      "model": "phi4-mini:3.8b",
+      "parameter_size": "3.8B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "phi3",
+      "modified_at": "2026-08-10T23:59:49.80717089Z",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME              ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \nphi4-mini:3.8b    78fad5d182a7    3.3 GB    100% GPU     4096       29 minutes from now"
+    },
+    "qwen3:4b": {
+      "model": "qwen3:4b",
+      "parameter_size": "4.0B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "qwen3",
+      "modified_at": "2026-08-11T00:00:08.710257625Z",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME        ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \nqwen3:4b    359d7dd4bcda    3.6 GB    100% GPU     4096       29 minutes from now"
+    },
+    "gemma3:4b": {
+      "model": "gemma3:4b",
+      "parameter_size": "4.3B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "gemma3",
+      "modified_at": "2026-08-11T00:00:09.294260305Z",
+      "capabilities": [
+        "completion",
+        "vision"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME         ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \ngemma3:4b    a2af6cc3eb7f    4.4 GB    100% GPU     4096       29 minutes from now"
+    },
+    "mistral:7b": {
+      "model": "mistral:7b",
+      "parameter_size": "7.2B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "llama",
+      "modified_at": "2026-08-11T00:00:37.988391964Z",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME          ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \nmistral:7b    6577803aa9a0    5.1 GB    100% GPU     4096       29 minutes from now"
+    },
+    "qwen3:8b": {
+      "model": "qwen3:8b",
+      "parameter_size": "8.2B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "qwen3",
+      "modified_at": "2026-08-11T00:01:06.446522539Z",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME        ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \nqwen3:8b    500a1f067a9f    6.1 GB    100% GPU     4096       29 minutes from now"
+    },
+    "llama3.1:8b": {
+      "model": "llama3.1:8b",
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "format": "gguf",
+      "family": "llama",
+      "modified_at": "2026-08-11T00:01:39.388673689Z",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME           ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \nllama3.1:8b    46e0c10c039e    5.5 GB    100% GPU     4096       29 minutes from now"
+    },
+    "gemma2:9b": {
+      "model": "gemma2:9b",
+      "parameter_size": "9.2B",
+      "quantization_level": "Q4_0",
+      "format": "gguf",
+      "family": "gemma2",
+      "modified_at": "2026-08-11T00:02:14.25983369Z",
+      "capabilities": [
+        "completion"
+      ],
+      "gpu_ollama_memory_mb_snapshot": "",
+      "ollama_ps_snapshot": "NAME         ID              SIZE      PROCESSOR    CONTEXT    UNTIL               \ngemma2:9b    ff02c3702f32    7.4 GB    100% GPU     4096       29 minutes from now"
+    }
+  }
+}

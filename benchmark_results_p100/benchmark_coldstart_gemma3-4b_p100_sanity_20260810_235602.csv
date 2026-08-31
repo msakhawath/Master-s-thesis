@@ -1,0 +1,2 @@
+model,cold_repeat,error,wall_total_ms,ollama_total_ms,ollama_load_ms,prompt_eval_ms,generation_ms,prompt_eval_tokens,generated_tokens,response
+gemma3:4b,1,,4087.3,4085.2,3896.3,116.0,16.8,14,2,OK
