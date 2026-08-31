@@ -244,13 +244,6 @@ Full context, limitations and interpretation are in the thesis.
 
 ---
 
-## Note on AI-assisted development
-
-Generative AI tools were used during this project for drafting and revising
-text, for writing, refactoring and debugging code, and for diagnosing runtime
-faults. They were not used to generate research data. All results were verified
-against the logs and source code. This is stated in Section 1.5 of the thesis.
-
 ---
 
 ## Licence
