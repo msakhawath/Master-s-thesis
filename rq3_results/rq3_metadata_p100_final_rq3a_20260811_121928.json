@@ -1,0 +1,56 @@
+{
+  "label": "p100_final_rq3a",
+  "research_question": "RQ3 component contribution / ablation analysis",
+  "conditions": [
+    "full",
+    "no_safety",
+    "no_persona"
+  ],
+  "condition_definitions": {
+    "full": "rule orchestrator + specialists + persona/style + safety",
+    "no_safety": "same architecture but specialist output bypasses safety",
+    "no_persona": "same full architecture but explicit persona/style wording removed"
+  },
+  "repetitions": 24,
+  "turns_per_condition_per_repeat": 11,
+  "model": "qwen2.5:7b",
+  "temperature": 0.5,
+  "max_tokens": 100,
+  "endpoint": "http://127.0.0.1:11435/v1",
+  "runtime": "self-hosted GPU inference on university infrastructure",
+  "topics": [
+    "education and academic background",
+    "programming skills and tools",
+    "machine learning and modelling experience",
+    "data wrangling and preprocessing",
+    "model evaluation and metrics",
+    "data visualization and storytelling",
+    "real-world data science projects",
+    "teamwork and communication",
+    "problem solving approach",
+    "career goals in data science"
+  ],
+  "candidate_inputs": [
+    "Yes, I am ready.",
+    "I completed a master's in Data Science and worked on several academic projects.",
+    "I mainly use Python, SQL, pandas, NumPy and scikit-learn.",
+    "I have implemented classification, anomaly detection and machine learning models.",
+    "I clean missing values, remove duplicates and inspect inconsistent observations.",
+    "I evaluate models using precision, recall, F1, ROC AUC and cross-validation.",
+    "I create visualizations with matplotlib and Power BI and explain results to stakeholders.",
+    "I completed real-world projects involving preprocessing, modelling and evaluation.",
+    "I collaborate with technical and non-technical colleagues and communicate findings clearly.",
+    "I normally define the problem, inspect the data, test alternatives and validate the result.",
+    "My goal is to become a strong applied data scientist and work on useful real-world systems."
+  ],
+  "execution_order_method": "cycle through all six permutations of the three conditions",
+  "latency_metric": "backend_response_ready_ms = elapsed wall-clock time from graph invocation to returned response; excludes ASR and TTS",
+  "behavioral_contract": "non-empty response + expected question-unit count + <=30 words",
+  "strict_contract": "behavioral contract + exactly one final ||| separator",
+  "notes": [
+    "RQ1 and RQ2 frozen; no RQ1/RQ2 experiment is rerun.",
+    "Safety conditions retain raw specialist response and final repaired response.",
+    "No-safety condition exposes specialist output directly.",
+    "Persona ablation changes only explicit persona/style wording; task/output constraints remain."
+  ]
+}

@@ -1,0 +1,68 @@
+Output of: python reproducibility\scripts\reproduce_rq3b_statistics.py
+Run by the author on 27 Oct 2026, Windows, Python 3.14, in the project virtual environment (numpy, scipy installed).
+Every value marked OK matches rq3b_final_statistics.txt and Table 8.3 of the thesis. Bootstrap
+confidence intervals differ in the last digits from the original (original resampling seed not recorded).
+
+RQ3-B REPRODUCTION (post-submission script)
+
+Trial files with a logged row: 39 of 40
+Empty trial files: ['rq3b_simple_FINAL_R09_SIMPLE_20260811_153130.csv']
+Complete matched pairs: 19; excluded repetitions: [9]
+Minimum within-pair transcript similarity: 0.9545 (thesis: 0.9545)
+
+== endpoint_delay_ms  (n = 19 pairs)
+    fixed 2.5 s, mean                  2511.947  OK
+    fixed 2.5 s, median / SD / P95     2513.0 / 5.169 / 2519.1
+    VAP+TurnGPT, mean                  777.579  OK
+    VAP+TurnGPT, median / SD / P95     748.0 / 302.550 / 1310.5
+    difference (pred - fixed)          -1734.368  OK
+    percent change                     -69.04%
+    paired t(18)                       -25.003  OK
+    Cohen dz                           -5.736  OK
+    pairs favouring VAP+TurnGPT        19/19
+    paired t-test p                    1.97932e-15  OK
+    Wilcoxon signed-rank p             0.000131627  OK
+    sign test p                        3.8147e-06
+    bootstrap 95% CI (10,000 resamples) [-1861.321, -1594.889]
+
+== fto_ms  (n = 19 pairs)
+    fixed 2.5 s, mean                  4476.526  OK
+    fixed 2.5 s, median / SD / P95     4440.0 / 435.163 / 5402.3
+    VAP+TurnGPT, mean                  2825.947  OK
+    VAP+TurnGPT, median / SD / P95     2804.0 / 428.492 / 3590.5
+    difference (pred - fixed)          -1650.579  OK
+    percent change                     -36.87%
+    paired t(18)                       -15.662  OK
+    Cohen dz                           -3.593  OK
+    pairs favouring VAP+TurnGPT        19/19
+    paired t-test p                    6.24176e-12  OK
+    Wilcoxon signed-rank p             3.8147e-06  OK
+    sign test p                        3.8147e-06
+    bootstrap 95% CI (10,000 resamples) [-1855.634, -1454.154]
+
+== graph_latency_ms  (n = 19 pairs)
+    fixed 2.5 s, mean                  1451.947  OK
+    fixed 2.5 s, median / SD / P95     1380.0 / 258.763 / 2128.9
+    VAP+TurnGPT, mean                  1475.737  OK
+    VAP+TurnGPT, median / SD / P95     1447.0 / 171.480 / 1794.7
+    difference (pred - fixed)          23.789  OK
+    percent change                     1.64%
+    Cohen dz                           0.110  OK
+    pairs favouring VAP+TurnGPT        8/19
+    paired t-test p                    0.637031  OK
+    Wilcoxon signed-rank p             0.198885  OK
+    sign test p                        0.647606
+    bootstrap 95% CI (10,000 resamples) [-81.947, 105.686]
+
+Holm-adjusted paired t p (3 outcomes): endpoint_delay_ms=5.93796e-15, fto_ms=1.24835e-11, graph_latency_ms=0.637031
+Holm-adjusted Wilcoxon p (3 outcomes): endpoint_delay_ms=0.000263254, fto_ms=1.14441e-05, graph_latency_ms=0.198885
+
+== Protocol-adherent sensitivity subset (n = 9: R01, R13-R20)
+    endpoint_delay_ms    mean difference -1612.111 ms; paired t p=8.92802e-07; Wilcoxon p=0.00390625
+    fto_ms               mean difference -1717.222 ms; paired t p=1.57153e-05; Wilcoxon p=0.00390625
+
+== Predictive-controller diagnostics (all 20 predictive trials)
+    yield_reason           {'turngpt_timeout': 20}
+    turngpt_timeout_ms     {'200': 20}
+    vap_backend            {'onnx': 20}
+    mean TurnGPT raw / shaped probability: 0.999793 / 0.892930

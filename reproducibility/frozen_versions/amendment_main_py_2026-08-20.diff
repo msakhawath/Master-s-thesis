@@ -1,0 +1,56 @@
+--- main.py (pre-amendment, frozen 2026-08-16)
++++ main.py (amended, re-frozen 2026-08-20)
+@@ -563,7 +563,26 @@
+         if is_last or (peek_only and got_any):
+             break
+ 
+-    if got_any:
++    # AMENDMENT 2026-08-20 (a) - readiness must survive a shut gate.
++    #
++    # PreparedReply.is_ready() is literally `not self.q.empty()`, and the drain
++    # above MOVES the chunks out of that queue into PREP_PREROLL. So once the
++    # reply had been drained, this function reported NOT ready even though the
++    # complete text was buffered. Consequences, both observed live:
++    #   - _should_yield() takes prep_ready as an argument and ends with
++    #     `prep_ready and (...)`, so the robot could never speak that reply;
++    #   - the PREP watchdog tests `(not _prep_ready(peek_only=True))`, so at
++    #     PREP_STALL_MS it declared a completed reply "stalled", cancelled it
++    #     (wiping PREP_PREROLL) and regenerated from scratch.
++    # A gate shut for a single tick therefore cost 15 s + regeneration + TTS.
++    # Measured on 7 of 43 turns across two pilots: ready->speech 15578-21254 ms,
++    # every one containing a duplicate generation exactly PREP_STALL_MS later.
++    #
++    # Buffered text now counts as ready. Safe against double-speech: the speak
++    # path calls _collect_prepared_text() (which empties PREP_PREROLL) and then
++    # _cancel_prepare("consumed") (which sets PREP = None), after which the
++    # `PREP is None` guard at the top of this function returns False.
++    if got_any or PREP_PREROLL:
+         return True
+     try:
+         ready = bool(PREP.is_ready())
+@@ -1186,7 +1205,24 @@
+                 _start_prepare("watchdog", seed_asr=(LAST_PARTIAL or ""))
+ 
+         # Inactivity reprompt (no repair flag per your spec)
+-        if (tick_ms - LAST_ASR_TIME_MS) > int(_cfg("INACTIVITY_REPROMPT_MS", 30000)) and (not ROBOT_TALKING) and (not user_speaking_vap):
++        #
++        # AMENDMENT 2026-08-20 (b) - never reprompt over work in progress.
++        #
++        # This fired on elapsed-ASR-time alone. It checked neither PREP nor
++        # USER_TURN_OPEN, so it could interrupt a fully generated reply and then
++        # call _start_robot_speech() -> _close_user_turn(), DISCARDING the
++        # participant's pending answer and orphaning the PREP that blocks the
++        # next settle with prep_already_running. Caught in the act six times in
++        # the 23:52 pilot, every one with user_turn_open=True and 3-114 chars of
++        # real pending text destroyed; the participant answered, was asked "are
++        # you there?", said "I already answered you", and the loop compounded
++        # until they said "i don't want to continue you don't understand me".
++        #
++        # The reprompt is for a genuinely absent participant, so it must now
++        # also see no live generation, no buffered reply, and no unanswered
++        # turn. Silence with work pending is a controller problem, not an
++        # absent participant, and speaking over it destroys data.
++        if (tick_ms - LAST_ASR_TIME_MS) > int(_cfg("INACTIVITY_REPROMPT_MS", 30000)) and (not ROBOT_TALKING) and (not user_speaking_vap) and (PREP is None) and (not PREP_PREROLL) and not (USER_TURN_OPEN and (PENDING_USER_TEXT or "").strip()):
+             reprompt = _cfg("INACTIVITY_REPROMPT_TEXT", "are you there ? shall we continue?")
+             _start_robot_speech(reprompt)
+             LAST_ASR_TIME_MS = tick_ms

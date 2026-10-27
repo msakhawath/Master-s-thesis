@@ -1,0 +1,4 @@
+condition,n_sessions,latency_mean_ms,output_contract_pass_rate,strict_contract_pass_rate,raw_output_contract_pass_rate,topic_state_pass_rate,proper_closing_rate,safety_intervention_rate
+full,24,1184.224,1.0,1.0,0.9811,1.0,1.0,0.4204
+no_safety,24,1181.577,0.9735,0.6667,0.9735,1.0,1.0,0.0
+no_persona,24,1199.574,1.0,1.0,0.9394,1.0,1.0,0.3257

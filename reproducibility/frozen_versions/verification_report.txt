@@ -1,0 +1,99 @@
+Result of verify_frozen_hashes.py on the unzipped frozen_sources_byte_exact.zip, 2026-10-27 22:11 UTC
+
+
+=== RQ2 (frozen 11 Aug 2026)
+    manifest: rq3_results/rq3_frozen_rq2_manifest.json
+    MATCH                    rq2_experiment.py
+    MATCH                    rq2_final_analysis.py
+    MATCH                    multi_agent\agents.py
+    MATCH                    multi_agent\graph.py
+    MATCH                    multi_agent\state.py
+    MATCH                    multi_agent_main.py
+    MATCH                    llm_module_ollama.py
+
+=== RQ3-A code (frozen 11 Aug 2026)
+    manifest: rq3_results/rq3a_frozen_manifest.json
+    MATCH                    rq3_experiment.py
+    MATCH                    multi_agent\rq3_agents.py
+    MATCH                    multi_agent\rq3_graph.py
+    MATCH                    multi_agent\rq3_state.py
+
+=== RQ3-A result files
+    manifest: rq3_results/rq3a_final_result_manifest.json
+    MATCH                    rq3_results\rq3_raw_p100_final_rq3a_20260811_121928.csv
+    MATCH                    rq3_results\rq3_session_summary_p100_final_rq3a_20260811_121928.csv
+    MATCH                    rq3_results\rq3_condition_summary_p100_final_rq3a_20260811_121928.csv
+    MATCH                    rq3_results\rq3_metadata_p100_final_rq3a_20260811_121928.json
+
+=== RQ3-A statistics files
+    manifest: rq3_results/rq3a_final_statistics_manifest.json
+    MATCH                    rq3a_final_analysis.py
+    MATCH                    rq3_results\rq3a_final_analysis_FROZEN.py
+    MATCH                    rq3_results\rq3a_final_session_metrics.csv
+    MATCH                    rq3_results\rq3a_final_condition_descriptives.csv
+    MATCH                    rq3_results\rq3a_final_planned_contrasts.csv
+    MATCH                    rq3_results\rq3a_final_safety_repair_effect.csv
+    MATCH                    rq3_results\rq3a_final_statistics.txt
+    MATCH                    rq3_results\rq3a_latency_session_boxplot.png
+    MATCH                    rq3_results\rq3a_strict_compliance.png
+    MATCH                    rq3_results\rq3a_behavioral_compliance.png
+    MATCH                    rq3_results\rq3a_safety_intervention_rate.png
+    MATCH                    rq3_results\rq3a_final_analysis_console.txt
+
+=== RQ3-B code (frozen 11 Aug 2026)
+    manifest: rq3_results/rq3b_frozen_manifest.json
+    MATCH                    rq3b_main.py
+    MATCH                    rq3b_policy.py
+    MATCH                    multi_agent\agents.py
+    MATCH                    multi_agent\graph.py
+    MATCH                    multi_agent\state.py
+    MATCH                    asr_module.py
+    MATCH                    vap_module.py
+    MATCH                    turngpt_module.py
+    MATCH                    furhat_realtime_module.py
+
+=== User study, pre-amendment (frozen 16 Aug 2026)
+    manifest: archive_old/pre_amendment_20260819/study_frozen_manifest_PRE_AMENDMENT_20260819.json
+    MATCH                    config.py
+    MATCH                    asr_module.py
+    MATCH                    rq3b_user_eval_main.py
+    MATCH                    rq3b_user_eval_policy.py
+    MATCH                    multi_agent/agents.py
+    MATCH                    multi_agent/graph.py
+    MATCH                    multi_agent/state.py
+    MATCH                    vap_module.py
+    MATCH                    turngpt_module.py
+    MATCH                    furhat_realtime_module.py
+    MATCH                    main.py  <- archive_old/pre_amendment_20260819/main_PRE_AMENDMENT_20260819.py
+    MATCH                    llm_module.py
+    MATCH                    tts_module.py
+    MATCH                    furhat_module.py
+    MATCH                    similarity.py
+    MATCH                    logger.py
+
+=== User study, post-amendment (re-frozen 20 Aug 2026)
+    manifest: user_study/study_frozen_manifest.json
+    MATCH                    config.py
+    MATCH                    asr_module.py
+    MATCH                    rq3b_user_eval_main.py
+    MATCH                    rq3b_user_eval_policy.py
+    MATCH                    multi_agent/agents.py
+    MATCH                    multi_agent/graph.py
+    MATCH                    multi_agent/state.py
+    MATCH                    vap_module.py
+    MATCH                    turngpt_module.py
+    MATCH                    furhat_realtime_module.py
+    MATCH                    main.py
+    MATCH                    llm_module.py
+    MATCH                    tts_module.py
+    MATCH                    furhat_module.py
+    MATCH                    similarity.py
+    MATCH                    logger.py
+
+=== Questionnaire instrument (frozen 16 Aug 2026)
+    hash file: user_study/INSTRUMENT_FROZEN_HASHES.txt
+    DIFFERS                  user_study/record_participant.py
+    MATCH                    user_study/QUESTIONNAIRE.md
+
+SUMMARY: 69 of 70 checks match.
+Expected exception, explained in Some_notes.md: user_study/record_participant.py was changed during the study; the questionnaire file itself still matches.

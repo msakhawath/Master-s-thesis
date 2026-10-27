@@ -1,0 +1,448 @@
+{
+  "validation": {
+    "input_zip": "rq3b_final_collection.zip",
+    "input_zip_sha256": "a765879b8f7fb55568a4e8f9a3f1e5a7492bef5eb0289d1123c61ede444ab50d",
+    "frozen_manifest": {
+      "status": "RQ3-B CODE FROZEN FOR FINAL COLLECTION",
+      "created_at": "2026-08-11T14:39:31.363826+02:00",
+      "design": {
+        "matched_repetitions": 20,
+        "conditions": [
+          "simple",
+          "vap_turngpt"
+        ],
+        "trials_per_condition": 20,
+        "total_trials": 40,
+        "inferential_unit": "matched scripted phrase repetition",
+        "simple_silence_ms": 2500,
+        "partial_asr_llm_prefetch": false,
+        "same_multi_agent_backend": true,
+        "same_model": "qwen2.5:7b"
+      },
+      "predictive_policy": {
+        "min_gap_ms": 500,
+        "vap_pnow_yield_threshold": 0.48,
+        "vap_pfut_yield_threshold": 0.48,
+        "user_low_now_for_yield": 0.47,
+        "user_low_fut_for_yield": 0.46,
+        "turngpt_yield_timeouts": [
+          [
+            0.5,
+            200
+          ],
+          [
+            0.3,
+            400
+          ],
+          [
+            0.2,
+            800
+          ],
+          [
+            0.1,
+            1600
+          ],
+          [
+            0.0,
+            2500
+          ]
+        ]
+      },
+      "files": {
+        "rq3b_main.py": {
+          "sha256": "8cf4a67bb46eb3c3b5e8b411e56f0b759e8012c49f1f0b2cd1a02f11ed4dca60",
+          "bytes": 15526
+        },
+        "rq3b_policy.py": {
+          "sha256": "2f5e4a868d58fad566d4a215b644066cf4bbdb062438682773b832eb7a844c02",
+          "bytes": 6273
+        },
+        "multi_agent\\agents.py": {
+          "sha256": "ee6672cba9f38805d76f5549304b18ee451fab239c0eeb87df8b720527046fed",
+          "bytes": 22888
+        },
+        "multi_agent\\graph.py": {
+          "sha256": "ac26b04a466c6bdf6bc06ac46c1b3260f3372e995f23342563220043de7a1bbe",
+          "bytes": 2796
+        },
+        "multi_agent\\state.py": {
+          "sha256": "41ed657c983a57979e34f8fd415de4f29b7488911802ba78591050f5a05f77db",
+          "bytes": 3529
+        },
+        "asr_module.py": {
+          "sha256": "f74b1863c475e8e1cfbdb15120a1c734852ad5d59aa1396648515d254dd34561",
+          "bytes": 14279
+        },
+        "vap_module.py": {
+          "sha256": "5933de47a16af5c9ff361035c4fb684453fb945fd161eec775a15587251f6cc6",
+          "bytes": 15616
+        },
+        "turngpt_module.py": {
+          "sha256": "24f37eb2a378ce667fa55522e5bd5fd9f303c8471825400e954fa17d39fe9bfd",
+          "bytes": 12133
+        },
+        "furhat_realtime_module.py": {
+          "sha256": "a440acba317aaf815a99628aee2378ff20449c6de619613862a6754567ee0d05",
+          "bytes": 9696
+        }
+      }
+    },
+    "csv_files_expected": 40,
+    "csv_files_present": 40,
+    "nonempty_trials": 39,
+    "empty_trial_files": [
+      "rq3b_simple_FINAL_R09_SIMPLE_20260811_153130.csv"
+    ],
+    "complete_matched_pairs": 19,
+    "excluded_matched_reps": [
+      9
+    ],
+    "minimum_within_pair_text_similarity": 0.9545454545454546,
+    "median_within_pair_text_similarity": 1.0,
+    "protocol_adherent_sensitivity_reps": [
+      1,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "protocol_adherent_sensitivity_n": 9,
+    "note": "R02-R08 and R10-R12 repeated the short R01-style response rather than the scheduled distinct phrase, but their two condition transcripts remained closely matched within each pair. R09 SIMPLE had no logged row, so the entire R09 matched pair is excluded."
+  },
+  "primary_complete_pair_analysis_n19": {
+    "endpoint": {
+      "simple": {
+        "n": 19,
+        "mean": 2511.9473684210525,
+        "median": 2513.0,
+        "sd": 5.169071313651423,
+        "p95": 2519.1,
+        "min": 2500.0,
+        "max": 2520.0
+      },
+      "predictive": {
+        "n": 19,
+        "mean": 777.578947368421,
+        "median": 748.0,
+        "sd": 302.5501456672511,
+        "p95": 1310.4999999999993,
+        "min": 308.0,
+        "max": 1612.0
+      },
+      "predictive_minus_simple": {
+        "n": 19,
+        "mean": -1734.3684210526317,
+        "median": -1761.0,
+        "sd": 302.3635064925652,
+        "p95": -1207.8000000000006,
+        "min": -2210.0,
+        "max": -900.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -1859.1052631578948,
+        -1595.842105263158
+      ],
+      "paired_t": {
+        "t": -25.002807931196262,
+        "df": 18,
+        "p": 1.9793212670128423e-15,
+        "holm_p": 5.937963801038527e-15
+      },
+      "wilcoxon": {
+        "W": 0.0,
+        "p": 0.00013162704518922692,
+        "holm_p": 0.00026325409037845384
+      },
+      "sign_test": {
+        "predictive_slower_count": 0,
+        "predictive_faster_count": 19,
+        "ties": 0,
+        "p": 3.814697265625e-06
+      },
+      "cohens_dz": -5.736037530360093,
+      "percent_change_vs_simple_mean": -69.04477549395521
+    },
+    "fto": {
+      "simple": {
+        "n": 19,
+        "mean": 4476.526315789473,
+        "median": 4440.0,
+        "sd": 435.16349014812204,
+        "p95": 5402.3,
+        "min": 3868.0,
+        "max": 5432.0
+      },
+      "predictive": {
+        "n": 19,
+        "mean": 2825.9473684210525,
+        "median": 2804.0,
+        "sd": 428.49224985655746,
+        "p95": 3590.499999999999,
+        "min": 2030.0,
+        "max": 3901.0
+      },
+      "predictive_minus_simple": {
+        "n": 19,
+        "mean": -1650.578947368421,
+        "median": -1500.0,
+        "sd": 459.36179348084823,
+        "p95": -1054.2000000000005,
+        "min": -2558.0,
+        "max": -840.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -1855.6315789473683,
+        -1453.6315789473683
+      ],
+      "paired_t": {
+        "t": -15.662397117087732,
+        "df": 18,
+        "p": 6.241755444148971e-12,
+        "holm_p": 1.2483510888297941e-11
+      },
+      "wilcoxon": {
+        "W": 0.0,
+        "p": 3.814697265625e-06,
+        "holm_p": 1.1444091796875e-05
+      },
+      "sign_test": {
+        "predictive_slower_count": 0,
+        "predictive_faster_count": 19,
+        "ties": 0,
+        "p": 3.814697265625e-06
+      },
+      "cohens_dz": -3.593200328788853,
+      "percent_change_vs_simple_mean": -36.87186963576081
+    },
+    "graph": {
+      "simple": {
+        "n": 19,
+        "mean": 1451.9473684210527,
+        "median": 1380.0,
+        "sd": 258.76318510350785,
+        "p95": 2128.9,
+        "min": 1200.0,
+        "max": 2155.0
+      },
+      "predictive": {
+        "n": 19,
+        "mean": 1475.7368421052631,
+        "median": 1447.0,
+        "sd": 171.48043040445143,
+        "p95": 1794.6999999999994,
+        "min": 1320.0,
+        "max": 2026.0
+      },
+      "predictive_minus_simple": {
+        "n": 19,
+        "mean": 23.789473684210527,
+        "median": 40.0,
+        "sd": 216.04798308281434,
+        "p95": 274.2,
+        "min": -706.0,
+        "max": 285.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -81.26315789473684,
+        107.05263157894737
+      ],
+      "paired_t": {
+        "t": 0.47996704356988035,
+        "df": 18,
+        "p": 0.6370314960769202,
+        "holm_p": 0.6370314960769202
+      },
+      "wilcoxon": {
+        "W": 56.0,
+        "p": 0.19888473153236397,
+        "holm_p": 0.19888473153236397
+      },
+      "sign_test": {
+        "predictive_slower_count": 10,
+        "predictive_faster_count": 8,
+        "ties": 1,
+        "p": 0.8145294189453125
+      },
+      "cohens_dz": 0.110111991534268,
+      "percent_change_vs_simple_mean": 1.6384528944792836
+    }
+  },
+  "protocol_adherent_sensitivity_analysis_n9": {
+    "endpoint": {
+      "simple": {
+        "n": 9,
+        "mean": 2513.222222222222,
+        "median": 2513.0,
+        "sd": 3.865804501581067,
+        "p95": 2517.8,
+        "min": 2507.0,
+        "max": 2519.0
+      },
+      "predictive": {
+        "n": 9,
+        "mean": 901.1111111111111,
+        "median": 791.0,
+        "sd": 360.68526600224624,
+        "p95": 1478.0,
+        "min": 433.0,
+        "max": 1612.0
+      },
+      "predictive_minus_simple": {
+        "n": 9,
+        "mean": -1612.111111111111,
+        "median": -1725.0,
+        "sd": 359.4705983959065,
+        "p95": -1036.8000000000002,
+        "min": -2080.0,
+        "max": -900.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -1817.111111111111,
+        -1377.9888888888916
+      ],
+      "paired_t": {
+        "t": -13.454044238707917,
+        "df": 8,
+        "p": 8.928021585989377e-07,
+        "holm_p": 2.678406475796813e-06
+      },
+      "wilcoxon": {
+        "W": 0.0,
+        "p": 0.00390625,
+        "holm_p": 0.01171875
+      },
+      "sign_test": {
+        "predictive_slower_count": 0,
+        "predictive_faster_count": 9,
+        "ties": 0,
+        "p": 0.00390625
+      },
+      "cohens_dz": -4.484681412902639,
+      "percent_change_vs_simple_mean": -64.14518767407932
+    },
+    "fto": {
+      "simple": {
+        "n": 9,
+        "mean": 4699.222222222223,
+        "median": 4548.0,
+        "sd": 506.48020143382155,
+        "p95": 5418.8,
+        "min": 3868.0,
+        "max": 5432.0
+      },
+      "predictive": {
+        "n": 9,
+        "mean": 2982.0,
+        "median": 2874.0,
+        "sd": 471.70488655514265,
+        "p95": 3763.0,
+        "min": 2455.0,
+        "max": 3901.0
+      },
+      "predictive_minus_simple": {
+        "n": 9,
+        "mean": -1717.2222222222222,
+        "median": -1749.0,
+        "sd": 559.7396220069153,
+        "p95": -951.6000000000001,
+        "min": -2558.0,
+        "max": -840.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -2063.5555555555557,
+        -1375.2222222222222
+      ],
+      "paired_t": {
+        "t": -9.203684113330501,
+        "df": 8,
+        "p": 1.5715306387381257e-05,
+        "holm_p": 3.1430612774762514e-05
+      },
+      "wilcoxon": {
+        "W": 0.0,
+        "p": 0.00390625,
+        "holm_p": 0.01171875
+      },
+      "sign_test": {
+        "predictive_slower_count": 0,
+        "predictive_faster_count": 9,
+        "ties": 0,
+        "p": 0.00390625
+      },
+      "cohens_dz": -3.0678947044435008,
+      "percent_change_vs_simple_mean": -36.542690279715316
+    },
+    "graph": {
+      "simple": {
+        "n": 9,
+        "mean": 1579.5555555555557,
+        "median": 1401.0,
+        "sd": 329.23058451149063,
+        "p95": 2143.4,
+        "min": 1326.0,
+        "max": 2155.0
+      },
+      "predictive": {
+        "n": 9,
+        "mean": 1555.3333333333333,
+        "median": 1471.0,
+        "sd": 214.58156957203943,
+        "p95": 1923.1999999999998,
+        "min": 1363.0,
+        "max": 2026.0
+      },
+      "predictive_minus_simple": {
+        "n": 9,
+        "mean": -24.22222222222222,
+        "median": 53.0,
+        "sd": 293.7268194163489,
+        "p95": 280.2,
+        "min": -706.0,
+        "max": 285.0
+      },
+      "bootstrap_95_ci_mean_difference_ms": [
+        -225.88888888888889,
+        132.66666666666666
+      ],
+      "paired_t": {
+        "t": -0.24739540914601965,
+        "df": 8,
+        "p": 0.8108332134742718,
+        "holm_p": 0.8108332134742718
+      },
+      "wilcoxon": {
+        "W": 21.0,
+        "p": 0.91015625,
+        "holm_p": 0.91015625
+      },
+      "sign_test": {
+        "predictive_slower_count": 5,
+        "predictive_faster_count": 4,
+        "ties": 0,
+        "p": 1.0
+      },
+      "cohens_dz": -0.08246513638200655,
+      "percent_change_vs_simple_mean": -1.5334833989870567
+    }
+  },
+  "predictive_diagnostics": {
+    "predictive_trials_logged": 20,
+    "vap_backend_counts": {
+      "onnx": 20
+    },
+    "yield_reason_counts": {
+      "turngpt_timeout": 20
+    },
+    "turngpt_timeout_counts": {
+      "200.0": 20
+    },
+    "turngpt_raw_probability_mean": 0.9997928619384766,
+    "turngpt_shaped_probability_mean": 0.8929298909508463,
+    "vap_forward_ms_mean": 54.4658,
+    "vap_forward_ms_median": 48.563
+  }
+}

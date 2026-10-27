@@ -1,0 +1,70 @@
+RQ3-B FINAL ANALYSIS
+====================
+
+DATA VALIDATION
+---------------
+CSV trial files present: 40
+Non-empty logged trials: 39
+Complete matched pairs: 19
+Excluded matched repetition: R09 (SIMPLE file contains header only / no logged trial row)
+Minimum within-pair transcript similarity among retained pairs: 0.9545
+Protocol-adherent sensitivity subset: n=9 (R01, R13-R20)
+
+PRIMARY MATCHED ANALYSIS (n=19 complete pairs)
+----------------------------------------------
+Endpoint decision delay:
+  Simple:      mean=2511.947 ms, median=2513.000, SD=5.169, P95=2519.100
+  Predictive:  mean=777.579 ms, median=748.000, SD=302.550, P95=1310.500
+  Difference (Predictive - Simple): -1734.368 ms
+  Percent change: -69.04%
+  Bootstrap 95% CI: [-1859.105, -1595.842] ms
+  Paired t(18)=-25.003, p=1.97932e-15, Holm p=5.93796e-15
+  Wilcoxon W=0.000, p=0.000131627, Holm p=0.000263254
+  Sign test: predictive faster in 19/19 pairs, p=3.8147e-06
+  Cohen dz=-5.736
+
+Floor-transfer offset (FTO):
+  Simple:      mean=4476.526 ms, median=4440.000, SD=435.163, P95=5402.300
+  Predictive:  mean=2825.947 ms, median=2804.000, SD=428.492, P95=3590.500
+  Difference (Predictive - Simple): -1650.579 ms
+  Percent change: -36.87%
+  Bootstrap 95% CI: [-1855.632, -1453.632] ms
+  Paired t(18)=-15.662, p=6.24176e-12, Holm p=1.24835e-11
+  Wilcoxon W=0.000, p=3.8147e-06, Holm p=1.14441e-05
+  Sign test: predictive faster in 19/19 pairs, p=3.8147e-06
+  Cohen dz=-3.593
+
+Graph latency (control check):
+  Simple mean=1451.947 ms
+  Predictive mean=1475.737 ms
+  Difference=23.789 ms
+  Bootstrap 95% CI=[-81.263, 107.053] ms
+  Paired t p=0.637031; Wilcoxon p=0.198885; Cohen dz=0.110
+
+PROTOCOL-ADHERENT SENSITIVITY ANALYSIS (n=9)
+---------------------------------------------
+Endpoint difference: -1612.111 ms
+  Paired t p=8.92802e-07; Wilcoxon p=0.00390625
+FTO difference: -1717.222 ms
+  Paired t p=1.57153e-05; Wilcoxon p=0.00390625
+
+PREDICTIVE CONTROLLER DIAGNOSTICS
+---------------------------------
+VAP backend counts: {'onnx': 20}
+Yield reason counts: {'turngpt_timeout': 20}
+TurnGPT timeout counts: {200.0: 20}
+Mean raw TurnGPT probability: 0.999793
+Mean shaped TurnGPT probability: 0.892930
+
+INTERPRETATION
+--------------
+The VAP+TurnGPT condition reduced endpoint decision delay and end-to-end FTO in every
+complete matched pair, while multi-agent graph latency did not show a reliable condition
+difference. The final predictive trials all yielded through the TurnGPT-timeout path rather
+than the direct VAP-yield path. VAP therefore functioned primarily as a speaking/hold gate
+in this dataset; the observed timing reduction must not be attributed to VAP alone.
+
+Because several early repetitions used the same short response rather than the scheduled
+distinct phrase, stimulus diversity was lower than planned. However, the two conditions
+remained closely matched within every retained pair, and the protocol-adherent n=9
+sensitivity analysis shows the same conclusion.

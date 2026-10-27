@@ -1,0 +1,38 @@
+{
+  "status": "RQ3-B FINAL STATISTICS GENERATED",
+  "input_zip_sha256": "a765879b8f7fb55568a4e8f9a3f1e5a7492bef5eb0289d1123c61ede444ab50d",
+  "outputs": {
+    "rq3b_all_nonempty_trials.csv": {
+      "sha256": "c943ab8b613558dedad970011f9aa8b3b75c9861d2f67a758d1e617e88463933",
+      "bytes": 22117
+    },
+    "rq3b_endpoint_paired.png": {
+      "sha256": "a6694c4345905534ed58e675e2f44b076781c26a138e5416f688d53c2a4d6c7b",
+      "bytes": 259115
+    },
+    "rq3b_final_analysis.py": {
+      "sha256": "92d29fa8fc98235e5b00b4afdddaa7d013bac12ff46ce16d4abe79b98a179d98",
+      "bytes": 267
+    },
+    "rq3b_final_pair_metrics.csv": {
+      "sha256": "170da72bda29ccbf2c150e224af67481d7c95a62060b92d58fceacb6a77cdbe1",
+      "bytes": 5155
+    },
+    "rq3b_final_statistics.txt": {
+      "sha256": "989e332f4ea514b601067f3689866e9a13552c3b60d8997ed53baf5d92dd2698",
+      "bytes": 2951
+    },
+    "rq3b_final_summary.json": {
+      "sha256": "6affbbfcf7f16f62e754db6fa9f23268e9b53d5de45966ff2db416fd8316bc80",
+      "bytes": 11898
+    },
+    "rq3b_final_validation.json": {
+      "sha256": "1ccf5cd227e14c6ccae54ec7ad493c1fc3dd3e7ae9edcfc347b82c8178a28e59",
+      "bytes": 3291
+    },
+    "rq3b_fto_paired.png": {
+      "sha256": "8d8266b12c2eb85f788eb61829f51ebe5f8b2c1bcb1c011cc7b4de042db0dc1e",
+      "bytes": 264051
+    }
+  }
+}

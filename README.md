@@ -9,6 +9,8 @@ Source code accompanying the M.Sc. thesis
 > Supervisor: Prof. Dr. Ilona Buchem · Examiner: Prof. Dr. Francisco Morales Serrano
 > September 2026
 
+**Examiners:** start with [`reproducibility/README_Professor.md`](reproducibility/README_Professor.md) (added October 2026). The repository as it was at submission is marked by the tag `thesis-submission-state`.
+
 ---
 
 ## What this repository contains
@@ -144,7 +146,7 @@ setting changed.
 - An Ollama server with `qwen2.5:7b` (Condition A)
 - An OpenAI API key (Condition B)
 - An AssemblyAI API key (speech recognition)
-- Furhat robot reachable on the local network
+- Virtual Furhat (Furhat SDK) running locally, with the Remote API and Realtime API enabled. No physical robot was used.
 
 ### Install
 
