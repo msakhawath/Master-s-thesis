@@ -1,7 +1,6 @@
 # Which parts I built, changed, or used from others
 
-I started from a Furhat interview system written by a previous student (thesis Section 2.4). This page compares that system, as I received it in April 2026, with my final code. As written in Section 1.5 of the thesis, I used AI tools to help write and debug code.
-
+I started from a Furhat interview system written by a previous student (thesis Section 2.4). This page compares that system, as I received it in April 2026, with my final code. 
 ## Built by me (30 new Python files)
 
 | Part | Files |
